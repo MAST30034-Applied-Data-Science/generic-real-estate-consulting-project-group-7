@@ -19,11 +19,20 @@
 
 ### Agenda:
 1. Part 1: Pre-Learning Session
-    - scrape with selinium
-    - regex
+    - Read all specification together and list all important point (all)
+    - Learn scrape with selinium and beauifulsoup (all)
+    - Learn regex (all)
+    - Write a simple github-group-user text including how to use branch and pull request (WU)
 
 2. Part 2: Sprint 1 todo
     - Join [gihub repository]('https://github.com/MAST30034-Applied-Data-Science/generic-real-estate-consulting-project-group-7')
+    - Determine which website we use, this need to determined by which website can give us enough data.
+      - [Domain]('https://www.domain.com.au')
+      - [Real Estate]('https://www.realestate.com.au')
+      - [Property.com]('https://www.property.com.au/buy')
+    - Which internal attributes we wanna consider. We wanna have a try with price first and scrape other data depending on which website we use.
+
+**all group members will focus on scraping data first.**
 
 
 
@@ -38,6 +47,21 @@
 
 ### Agenda:
 1. Part 1: Discuss about internal dataset
-1
-
+    - Choose [Domain]('https://www.domain.com.au') as our website for the rest of analysis.
+    - We already scrape internal attributes (LI and WU) including
+       - Beds, Baths, Parking and Area
+       - Latitude, Longitude and Address
+       - Rent Payment
+       - Nearby school with distance
+    - Discuss how we use school as our internal attributes, the problems we face are
+        - Cannot scape all the school data including government and independent school
+        - How can we combine schools and housing prices to analyze
+  
 2. Part 2: Discuss about external dataset and visualization
+    - We need some external dataset to helps us analysis such as schools, train and bus station...
+    - Think about more deeply with if you are a tenant, you will consider what facilities to rent around the house
+    - For the Visualization part:
+        - Use shapefile, we need have a VIC loopup table and try to use schools data to have a try
+        - Use tableau which can combine three attibutes together (need more research)
+    - XIE and GUO will cover external part
+    - WANG will cover visualization part
