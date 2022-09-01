@@ -7,6 +7,8 @@
     - [Agenda:](#agenda)
   - [Meeting Time: 8:20pm - 11:20pm, 30/8/2022, Tuesday](#meeting-time-820pm---1120pm-3082022-tuesday)
     - [Agenda:](#agenda-1)
+  - [Meeting Time: Friday](#meeting-time-friday)
+  - [Meeting Time: Sunday](#meeting-time-sunday)
 
 ## Meeting Time: 4:15pm - 6:15pm, 29/8/2022, Monday
 **Members Attend:**
@@ -65,3 +67,11 @@
         - Use tableau which can combine three attibutes together (need more research)
     - XIE and GUO will cover external part
     - WANG will cover visualization part
+
+## Meeting Time: Friday
+
+**We are planning to have group meeting during Friday evening, the meeting notes will be complete and show on Sprint 2 Meeting Checkpoint**
+
+## Meeting Time: Sunday
+
+**We are planning to have group meeting during Sunday, the meeting notes will be complete and show on Sprint 2 Meeting Checkpoint**
