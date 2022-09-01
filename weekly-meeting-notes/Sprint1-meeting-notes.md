@@ -87,4 +87,6 @@
 1. Internal Data Scraping coding should be done and assign tasks to scrapes
 
 2. External Dataset specification
+
+
 **We are planning to have group meeting during Sunday, the meeting notes will be complete and show on Sprint 2 Meeting Checkpoint**
