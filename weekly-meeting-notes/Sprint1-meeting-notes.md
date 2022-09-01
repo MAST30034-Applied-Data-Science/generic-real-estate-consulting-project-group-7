@@ -7,8 +7,10 @@
     - [Agenda:](#agenda)
   - [Meeting Time: 8:20pm - 11:20pm, 30/8/2022, Tuesday](#meeting-time-820pm---1120pm-3082022-tuesday)
     - [Agenda:](#agenda-1)
-  - [Meeting Time: Friday](#meeting-time-friday)
-  - [Meeting Time: Sunday](#meeting-time-sunday)
+  - [Expected Meeting Time: Friday Afternoon/Evening](#expected-meeting-time-friday-afternoonevening)
+    - [Agenda:](#agenda-2)
+  - [Expected Meeting Time: Sunday](#expected-meeting-time-sunday)
+    - [Agenda:](#agenda-3)
 
 ## Meeting Time: 4:15pm - 6:15pm, 29/8/2022, Monday
 **Members Attend:**
@@ -68,10 +70,21 @@
     - XIE and GUO will cover external part
     - WANG will cover visualization part
 
-## Meeting Time: Friday
+## Expected Meeting Time: Friday Afternoon/Evening
+
+### Agenda:
+1. Discuss internal Data
+
+2. Discuss external Data
+
+3. Visualization specification
 
 **We are planning to have group meeting during Friday evening, the meeting notes will be complete and show on Sprint 2 Meeting Checkpoint**
 
-## Meeting Time: Sunday
+## Expected Meeting Time: Sunday
 
+### Agenda:
+1. Internal Data Scraping coding should be done and assign tasks to scrapes
+
+2. External Dataset specification
 **We are planning to have group meeting during Sunday, the meeting notes will be complete and show on Sprint 2 Meeting Checkpoint**
