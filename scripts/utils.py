@@ -157,4 +157,5 @@ def domain_property_info(data: dict) -> Union[DataFrame, None]:
         lambda x: domain_nearby_schools(component_props), axis=1
     )
 
+
     return property_df
