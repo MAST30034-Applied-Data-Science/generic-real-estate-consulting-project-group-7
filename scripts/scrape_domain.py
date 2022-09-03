@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 from constants import headers, home_url
-from utils import domain_property_info, domain_property_links
+from utils import *
 from tqdm import tqdm
 import constants
 
@@ -39,6 +39,7 @@ def domain_properties_info(links: list[str]) -> DataFrame:
             continue
 
         bs_object = BeautifulSoup(response, "html.parser")
+        # property_price = bs_object.find("div", {"data-testid": "listing-details__summary-title"})
 
         # obtain all data
         node = bs_object.find("script", {"id": "__NEXT_DATA__"})
@@ -50,7 +51,7 @@ def domain_properties_info(links: list[str]) -> DataFrame:
         # data = json.loads(bs_object.find("script", {"id": "__NEXT_DATA__"}).text)
 
         property_df = domain_property_info(data)
-
+        # house_df = domain_property_info2(bs_object)
         # concatenate property data
         domain_properties = pd.concat([domain_properties, property_df], axis=0)
 

@@ -42,7 +42,7 @@ postcodes = {
     ),
     "ACT": np.concatenate([np.arange(2600, 2619), np.arange(2900, 2921)]),
     "VIC": np.arange(3000, 4000),
-    'VIC_sample': np.arange(4200,4220),
+    'VIC_sample': np.arange(3100, 3102),
     "QLD": np.arange(4000, 5000),
     "SA": np.arange(5000, 5800),
     "WA": np.arange(6000, 6798),

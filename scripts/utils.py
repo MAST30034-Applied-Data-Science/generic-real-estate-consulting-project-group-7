@@ -8,6 +8,7 @@ from datetime import datetime
 import json
 import pickle
 import time
+import re
 
 import requests
 import pandas as pd
@@ -152,6 +153,16 @@ def domain_property_info(data: dict) -> Union[DataFrame, None]:
     property_df["latitude"] = component_props["map"]["latitude"]
     property_df["longitude"] = component_props["map"]["longitude"]
 
+
+    # a = int(data["props"]["pageProps"]["layoutProps"]['canonical'].split('-')[-1])
+    # property_df["price"] = data["props"]["pageProps"]["componentProps"]\
+                        # ['listingsMap']['a']['listingModel']['price']
+
+
+
+
+
+
     # school information
     property_df["nearBySchools"] = property_df.apply(
         lambda x: domain_nearby_schools(component_props), axis=1
@@ -159,3 +170,25 @@ def domain_property_info(data: dict) -> Union[DataFrame, None]:
 
 
     return property_df
+
+def domain_property_info2(bs_object: str) -> DataFrame:
+    basic_feature_list = []
+    property_price = bs_object.find("div", {"data-testid": "listing-details__summary-title"})
+    basic_feature_dict = {}
+    if property_price is None:
+        basic_feature_dict['price'] = None
+        
+    else:
+        basic_feature_dict['price'] = re.compile(r'\d{3}').findall(str(property_price))[0]
+    basic_feature_list.append(basic_feature_dict)
+    price_list = []
+    for row in basic_feature_list:      
+        if 'price' in row:
+            price_list.append(row['price'])
+        else:
+            price_list.append(None)     
+    house_dict = {}
+    house_dict['Rent'] = price_list
+    house_df = pd.DataFrame(house_dict)
+
+    return house_df
