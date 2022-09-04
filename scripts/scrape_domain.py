@@ -46,7 +46,7 @@ def domain_properties_info(links: list[str]) -> DataFrame:
         if node is not None:
             data = json.loads(bs_object.find("script", {"id": "__NEXT_DATA__"}).text)
         else:
-            break
+            data = data
 
         # data = json.loads(bs_object.find("script", {"id": "__NEXT_DATA__"}).text)
 
