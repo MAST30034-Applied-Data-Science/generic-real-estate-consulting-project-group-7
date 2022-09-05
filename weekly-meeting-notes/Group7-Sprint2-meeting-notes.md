@@ -84,9 +84,19 @@
 	- Is there any population growth datafile provided?
 
 4. Sprint 2 todo
+	- FIXING price dataset
+	- Download all domain data
+	- Organize all domain scrape data with better coding stuff
 	- Finish scraping all the required data and saving it for all rental properties.
 	- Determine how many properties and features will be sufficient for their project.
+	- 
+	- Find population growth datafile
+	- For school data, think it more deeply
+	- All external data done with coding stuff
 	- Find a way to use Statistical Areas Level 2 (SA2) to derive population forecast and affluence. 
+	- 
 	- Find any additional external dataset that may assist in the analysis to answer the 3 big questions.
+	- 
 	- Learn Open Route Service API accoriding to sprint 3 tasks.
+	- 
 	- Summarise what we did in sprint1/2 in a notebook
