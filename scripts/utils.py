@@ -8,15 +8,21 @@ from datetime import datetime
 import json
 import pickle
 import time
-import re
 
 import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
-from tqdm import tqdm
 
-from constants import domain_property_attributes, home_url, headers
+from constants import (
+    domain_property_attributes,
+    home_url,
+    user_agents,
+    domain_property_attributes as property_features,
+    domain_property_schemas,
+    domain_property_columns,
+)
+import random
 
 
 DataFrame = pd.core.frame.DataFrame
@@ -24,7 +30,7 @@ DataFrame = pd.core.frame.DataFrame
 # return maximum response result based on given postcode
 
 
-def domain_result_pages(postcode: int) -> int:
+def _domain_result_pages(postcode: int) -> int:
     """
     Return maximum domain properties result based on given postcode
 
@@ -36,7 +42,9 @@ def domain_result_pages(postcode: int) -> int:
     """
     url = home_url["domain"] + f"/rent/?postcode={postcode}"
     try:
-        response = requests.get(url, headers=headers, timeout=5)
+        response = requests.get(
+            url, headers={"User-Agent": random.choice(user_agents)}, timeout=5
+        )
     except requests.exceptions.Timeout:
         return 0
 
@@ -53,10 +61,38 @@ def domain_result_pages(postcode: int) -> int:
     )
 
 
+def _domain_get_response(url: str) -> Union[dict, None]:
+    """
+    Return data object from target url __NEXT_DATA__ section
+
+    Args:
+        postcode (int): victoria postcode
+        page (int): page number
+
+    Returns:
+        Union[dict, None]: data object
+    """
+    try:
+        response = requests.get(
+            url, headers={"User-Agent": random.choice(user_agents)}, timeout=5
+        )
+    except response.exceptions.Timeout:
+        return None
+
+    # parse http requests
+    bs_object = BeautifulSoup(response.text, "html.parser")
+
+    try:
+        data = json.loads(bs_object.find("script", {"id": "__NEXT_DATA__"}).text)[
+            "props"
+        ]["pageProps"]
+        return data
+    except Exception:
+        return None
+
+
 # return unique extracted link for given postcode
-def domain_property_links(
-    postcode: int, delay: int = 0, save_file: bool = False
-) -> set:
+def _domain_property_links(postcode: int) -> None:
     """
     Obtain property links based on given victoria postcode
 
@@ -64,51 +100,83 @@ def domain_property_links(
         postcode (int): victoria postcode
 
     Returns:
-        set: set of domain property list
+        None: results save in parquet files
     """
     # result links
-    property_links = set()
+    property_links = list()
 
-    for page in tqdm(np.arange(1, domain_result_pages(postcode))):
+    for page in range(1, _domain_result_pages(postcode)):
         url = home_url["domain"] + f"/rent/?postcode={postcode}&page={page}"
 
-        # parsing html to lxml format
-        try:
-            response = requests.get(url, headers=headers, timeout=10)
-        except requests.exceptions.Timeout:
-            continue
-
-        # parse the http response
-        bs_object = BeautifulSoup(response.text, "html.parser")
-
-        # obtain NextJS data
-        data = json.loads(bs_object.find("script", {"id": "__NEXT_DATA__"}).text)[
-            "props"
-        ]
-        page_props = data["pageProps"]
+        # destruct property information based on given json components
+        page_props = _domain_get_response(url)
         component_props = page_props["componentProps"]
         listings_map = component_props["listingsMap"]
 
         if listings_map:
-            for prop in listings_map:
-                url = home_url["domain"] + listings_map[prop]["listingModel"]["url"]
-                property_links.add(url)
-        else:
-            continue
+            for property_id in listings_map:
+                listing_model = listings_map[property_id]["listingModel"]
+                url = home_url["domain"] + listing_model["url"]
+                street, suburb, state, postcode, lat, lng = listing_model[
+                    "address"
+                ].values()
 
-        if delay:
-            time.sleep(delay)
+                # extract single property features, fill non-exist value with empty string
+                features = listing_model["features"]
+                for feature in property_features:
+                    if feature not in features:
+                        features[feature] = ""
 
-    # dump current url data into pickle file
-    if save_file:
-        filename = f"{datetime.now().strftime('%Y-%m-%d')} {postcode}.domain.pickle"
-        with open(filename, "wb") as file:
-            pickle.dump(property_links, file, protocol=pickle.HIGHEST_PROTOCOL)
+                # obtain property price
+                price = listing_model["price"] if listing_model["price"] else ""
 
-    return property_links
+                # add property info to result list
+                property_links.append(
+                    [
+                        property_id,
+                        street,
+                        suburb,
+                        state,
+                        postcode,
+                        lat,
+                        lng,
+                        price,
+                        features["beds"],
+                        features["baths"],
+                        features["parking"],
+                        features["propertyTypeFormatted"],
+                        features["isRural"],
+                        features["landSize"],
+                        features["landUnit"],
+                        features["isRetirement"],
+                        url,
+                    ]
+                )
+
+    if property_links:
+        property_df = pd.DataFrame(
+            data=property_links,
+            columns=domain_property_columns,
+        )
+
+        # for parquet file saving purpose, fill all na value with empty string
+        property_df.replace("", np.nan, inplace=True)
+
+        # fill empty values with 0
+        property_df.fillna({"bedrooms": 0, "bathrooms": 0, "parking": 0}, inplace=True)
+        property_df = property_df.astype(domain_property_schemas)
+
+        # define filename
+        date = datetime.now().strftime("%Y-%m-%d")
+        
+        # output final parquet file
+        filename = f"{date}-{postcode}.parquet"
+        property_df.to_parquet(f"../data/raw/domain_data/" + filename)
+
+    return
 
 
-def domain_nearby_schools(component_props: dict) -> list:
+def _domain_nearby_schools(component_props: dict) -> list:
     """
     Obtain school names based on given target property info page
 
@@ -127,7 +195,7 @@ def domain_nearby_schools(component_props: dict) -> list:
             return list()
 
 
-def domain_property_info(data: dict) -> Union[DataFrame, None]:
+def _domain_property_info(data: dict) -> Union[DataFrame, None]:
     """
     Obtain single domain property information
 
@@ -153,42 +221,9 @@ def domain_property_info(data: dict) -> Union[DataFrame, None]:
     property_df["latitude"] = component_props["map"]["latitude"]
     property_df["longitude"] = component_props["map"]["longitude"]
 
-
-    # a = int(data["props"]["pageProps"]["layoutProps"]['canonical'].split('-')[-1])
-    # property_df["price"] = data["props"]["pageProps"]["componentProps"]\
-                        # ['listingsMap']['a']['listingModel']['price']
-
-
-
-
-
-
     # school information
     property_df["nearBySchools"] = property_df.apply(
-        lambda x: domain_nearby_schools(component_props), axis=1
+        lambda x: _domain_nearby_schools(component_props), axis=1
     )
 
-
     return property_df
-
-def domain_property_info2(bs_object: str) -> DataFrame:
-    basic_feature_list = []
-    property_price = bs_object.find("div", {"data-testid": "listing-details__summary-title"})
-    basic_feature_dict = {}
-    if property_price is None:
-        basic_feature_dict['price'] = None
-        
-    else:
-        basic_feature_dict['price'] = re.compile(r'\d{3}').findall(str(property_price))[0]
-    basic_feature_list.append(basic_feature_dict)
-    price_list = []
-    for row in basic_feature_list:      
-        if 'price' in row:
-            price_list.append(row['price'])
-        else:
-            price_list.append(None)     
-    house_dict = {}
-    house_dict['Rent'] = price_list
-    house_df = pd.DataFrame(house_dict)
-
-    return house_df
