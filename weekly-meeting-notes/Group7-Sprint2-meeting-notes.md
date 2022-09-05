@@ -89,3 +89,4 @@
 	- Find a way to use Statistical Areas Level 2 (SA2) to derive population forecast and affluence. 
 	- Find any additional external dataset that may assist in the analysis to answer the 3 big questions.
 	- Learn Open Route Service API accoriding to sprint 3 tasks.
+	- Summarise what we did in sprint1/2 in a notebook
