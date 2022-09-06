@@ -9,6 +9,8 @@
 		- [Agenda:](#agenda)
 	- [Meeting Time: 20:00pm - 21:00pm, 4/9/2022, Sunday](#meeting-time-2000pm---2100pm-492022-sunday)
 		- [Agenda:](#agenda-1)
+	- [Meeting Time: 4:15pm - 6:15pm, 5/9/2022, Monday](#meeting-time-415pm---615pm-592022-monday)
+		- [Agenda:](#agenda-2)
    
 ## Meeting Time: 10:00am - 11:30am, 3/9/2022, Saturday
 **Members Attend:**
@@ -42,14 +44,14 @@
 
 1. Summarise internal dataset (WU and LI)
 	- Our plan is using scrape-script to scrape all data. as results, we finding almost 15000 url links and we generate a parquet file (df) as follows:
-    ![Drag Racing](sprint2-meeting-internal_attributes.png)
+    ![Drag Racing](../plots/meeting_minutes/sprint2-meeting-internal_attributes.png)
 	- And we also use geopandas to map the postcode attributes, we found we almost cover all VIC surburbs which we think the data is reasonable.
-    ![Drag Racing](sprint2-meeting-internal_attributes_map)
+    ![Drag Racing](../plots/meeting_minutes/sprint2-meeting-internal_attributes_map)
 	- But we face a problem is price attributes, some script did not contain price dataset, the method that we use is 
 		- `property_price  =  bs_object.find("div", {"data-testid": "listing-details__summary-title"})`
 		- update: sample run the code with link=6 is working, but the for loop takes extremely long time to scrape
-	![Drag Racing](sprint2-meeting-internal_attributes-price.png)
-	![Drag Racing](sprint2-meeting-internal_attributes-price-problem.png)
+	![Drag Racing](../plots/meeting_minutes/sprint2-meeting-internal_attributes-price.png)
+	![Drag Racing](../plots/meeting_minutes/sprint2-meeting-internal_attributes-price-problem.png)
 		- **we still trying to fix this problem**
 
 2. Summarise External dataset (WANG, XIE and GUO)
@@ -100,3 +102,60 @@
 	- Learn Open Route Service API accoriding to sprint 3 tasks.
 	- 
 	- Summarise what we did in sprint1/2 in a notebook
+
+
+## Meeting Time: 4:15pm - 6:15pm, 5/9/2022, Monday
+**Members Attend:**
+
+- [x] QUZIHAN WU
+- [x] XINGYAO WANG
+- [x] YINAN LI
+- [x] ZIXUAN GUO
+- [x] ZONGCHAO XIE
+
+### Agenda:
+
+**This meeting session mainly focus on collect answers from last meeting and list sprint 2 todo list**
+
+1. Scrape domain Dataset
+   - [x] Finish scrape domain dataset coding
+   - [ ] Organize all coding stuff (coding correction, results, comments)
+   - [ ] Create a notebook with visualization
+   - [ ] Finish scrape domain readme file with visualization
+   - [ ] Rewrite pull request and merge scrape domain to *main* branch
+   - [ ] Let group members know and create new branch for preprocessing domain dataset
+   - [ ] Think about how many properties and features will be sufficient for their project
+   - [ ] Preprocessing
+   - [ ] ... ... ...
+
+
+2. External Dataset
+	- [ ] Intoduce what we already collected
+	- [ ] Organize coding stuff
+	- [ ] Think about download.py or seperately
+	- [ ] Organize all coding stuff (coding correction, results, comments)
+    - [ ] Finish external dataset readme file with visualization
+    - [ ] Rewrite pull request and merge  external data to *main* branch
+    - [ ] Let group members know and create new branch for preprocessing external dataset
+    - [ ] Preprocessing
+    - [ ] ... ... ...
+
+3. Find a way of to use SA2 to derive population forecast and affluence
+	- [ ] Find population growth datafile
+
+4. Learn **Open Route Service API**
+	- [ ] OpenRouteService Documentation: Open Route Service API Docs
+	- [ ] OpenRouteService Basic Examples: Open Route Services Example Notebooks
+	- [ ] OpenRouteService Sample Project: Open Route Services Sample Project
+	- [ ] OpenRouteService Sample Project 2 (using sjoin and geopandas): Sample Project
+
+
+5. Continue learning
+	- Regex
+	- Clustering
+	- ML and DL
+	- Search and read some report related to house pirce prediction
+
+
+6. Meeting Minutes and Summarization(md file)
+
