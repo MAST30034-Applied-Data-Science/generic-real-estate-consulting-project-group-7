@@ -152,6 +152,7 @@
 
 5. Continue learning
 	- Regex
+	- Pyspark
 	- Clustering
 	- ML and DL
 	- Search and read some report related to house pirce prediction
