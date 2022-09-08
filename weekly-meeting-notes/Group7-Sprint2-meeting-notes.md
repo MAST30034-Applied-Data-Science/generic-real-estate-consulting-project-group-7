@@ -13,6 +13,8 @@
 		- [Agenda:](#agenda-2)
 	- [Meeting Time: 5:30pm - 6:10pm, 7/9/2022, Wednesday](#meeting-time-530pm---610pm-792022-wednesday)
 		- [Agenda:](#agenda-3)
+	- [Meeting Time: 8:00pm - 9:30pm, 8/9/2022, Thursday](#meeting-time-800pm---930pm-892022-thursday)
+		- [Agenda:](#agenda-4)
    
 ## Meeting Time: 10:00am - 11:30am, 3/9/2022, Saturday
 **Members Attend:**
@@ -177,3 +179,39 @@
 1. Organize all external dataset stuff
 	- **problem:** google map API only can access 60 rows of data which means not fit our main domain data
 	- All group memebers still foucs on find external dataset
+
+
+## Meeting Time: 8:00pm - 9:30pm, 8/9/2022, Thursday
+**Members Attend:**
+
+- [x] QUZIHAN WU
+- [x] XINGYAO WANG
+- [x] YINAN LI
+- [x] ZIXUAN GUO
+- [x] ZONGCHAO XIE
+
+### Agenda:
+
+**Still doing external dataset**
+
+1. SA2
+	- Income
+	- Growth rate
+
+2. Postcode
+	- Property
+	- PTV Station
+	- Hospital
+	- Emergency Service: 
+    	- police station
+      	- amubulance
+	- Public Service: 
+    	- swimming pool
+    	- libary
+    	- museum
+    	- art gallery
+	- Care Facility
+    	- child
+    	- disability
+    	- aged
+	- School with ranking
