@@ -4,3 +4,7 @@
 - Sprint 3: Final batch of datasets released.
 
 The data will either be provided by an annoucement (downloadable via URL) or uploaded directly to the `raw` directory.
+
+## Folder Specification
+1. save [domain website]('https://www.domain.com.au/') rent-house dataset
+    - `domain-website-data`
