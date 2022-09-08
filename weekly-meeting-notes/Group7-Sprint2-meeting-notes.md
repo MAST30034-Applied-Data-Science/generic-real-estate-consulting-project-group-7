@@ -11,6 +11,8 @@
 		- [Agenda:](#agenda-1)
 	- [Meeting Time: 4:15pm - 6:15pm, 5/9/2022, Monday](#meeting-time-415pm---615pm-592022-monday)
 		- [Agenda:](#agenda-2)
+	- [Meeting Time: 5:30pm - 6:10pm, 7/9/2022, Wednesday](#meeting-time-530pm---610pm-792022-wednesday)
+		- [Agenda:](#agenda-3)
    
 ## Meeting Time: 10:00am - 11:30am, 3/9/2022, Saturday
 **Members Attend:**
@@ -156,7 +158,23 @@
 	- Clustering
 	- ML and DL
 	- Search and read some report related to house pirce prediction
+       - https://www.researchgate.net/publication/5142421_Determinants_of_Market_Rent
+       - https://www.researchgate.net/publication/5142346_Determining_Apartment_Rent_The_Value_of_Amenities_Services_and_External_Factors
 
 
 6. Meeting Minutes and Summarization(md file)
 
+## Meeting Time: 5:30pm - 6:10pm, 7/9/2022, Wednesday
+**Members Attend:**
+
+- [x] QUZIHAN WU
+- [x] XINGYAO WANG
+- [x] YINAN LI
+- [x] ZIXUAN GUO
+- [x] ZONGCHAO XIE
+
+### Agenda:
+
+1. Organize all external dataset stuff
+	- **problem:** google map API only can access 60 rows of data which means not fit our main domain data
+	- All group memebers still foucs on find external dataset
