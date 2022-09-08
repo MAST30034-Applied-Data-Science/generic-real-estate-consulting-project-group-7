@@ -121,14 +121,13 @@
 
 1. Scrape domain Dataset
    - [x] Finish scrape domain dataset coding
-   - [ ] Organize all coding stuff (coding correction, results, comments)
-   - [ ] Create a notebook with visualization
-   - [ ] Finish scrape domain readme file with visualization
-   - [ ] Rewrite pull request and merge scrape domain to *main* branch
-   - [ ] Let group members know and create new branch for preprocessing domain dataset
-   - [ ] Think about how many properties and features will be sufficient for their project
+   - [x] Organize all coding stuff (coding correction, results, comments)
+   - [x] Create a notebook with visualization
+   - [x] Finish scrape domain readme file with visualization
+   - [x] Rewrite pull request and merge scrape domain to *main* branch
+   - [x] Let group members know and create new branch for preprocessing domain dataset
+   - [x] Think about how many properties and features will be sufficient for their project
    - [ ] Preprocessing
-   - [ ] ... ... ...
 
 
 2. External Dataset
