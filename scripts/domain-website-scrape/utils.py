@@ -171,7 +171,7 @@ def _domain_property_links(postcode: int) -> None:
         
         # output final parquet file
         filename = f"{date}-{postcode}.parquet"
-        property_df.to_parquet(f"../data/raw/domain_data/" + filename)
+        property_df.to_parquet(f"../../data/raw/domain-website-data/" + filename)
 
     return
 
