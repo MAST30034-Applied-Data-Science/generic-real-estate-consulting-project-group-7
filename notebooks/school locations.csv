@@ -1,0 +1,183 @@
+Education_Sector,Entity_Type,SCHOOL_NO,School_Name,School_Type,School_Status,Address_Line_1,Address_Line_2,Address_Town,Address_State,Address_Postcode,Postal_Address_Line_1,Postal_Address_Line_2,Postal_Town,Postal_State,Postal_Postcode,Full_Phone_No,LGA_ID,LGA_Name,X,Y
+Government,1,1,Alberton Primary School,Primary,O,21 Thomson Street,,Alberton,VIC,3971,21 Thomson Street,,ALBERTON,VIC,3971,03 5183 2412,681,Wellington (S),146.6666,-38.61771
+Government,1,3,Allansford and District Primary School,Primary,O,Frank Street,,Allansford,VIC,3277,Frank Street,,ALLANSFORD,VIC,3277,03 5565 1382,673,Warrnambool (C),142.59039,-38.38628
+Government,1,4,Avoca Primary School,Primary,O,118 Barnett Street,,Avoca,VIC,3467,P O Box 12,,AVOCA,VIC,3467,03 5465 3176,599,Pyrenees (S),143.47565,-37.0845
+Government,1,8,Avenel Primary School,Primary,O,40 Anderson Street,,Avenel,VIC,3664,40 Anderson Street,,AVENEL,VIC,3664,03 5796 2264,643,Strathbogie (S),145.23472,-36.90137
+Government,1,12,Warrandyte Primary School,Primary,O,5-11 Forbes Street,,Warrandyte,VIC,3113,5-11 Forbes Street,,WARRANDYTE,VIC,3113,03 9844 3537,421,Manningham (C),145.21398,-37.74268
+Government,1,26,Belmont Primary School,Primary,O,51 Mt Pleasant Road,,Belmont,VIC,3216,P O Box 471,,BELMONT,VIC,3216,03 5243 2972,275,Greater Geelong (C),144.3421,-38.17067
+Government,1,28,Bacchus Marsh Primary School,Primary,O,56-62 Lerderderg Street,,Bacchus Marsh,VIC,3340,P O Box 334,,Bacchus Marsh,VIC,3340,03 5367 2745,515,Moorabool (S),144.44312,-37.67303
+Government,1,33,Ballarat Primary School (Dana Street),Primary,O,401 Dana Street,,Ballarat,VIC,3350,401 Dana Street,,BALLARAT,VIC,3350,03 5332 1301,57,Ballarat (C),143.85394,-37.56401
+Government,1,37,Wodonga Primary School,Primary,O,Brockley Street,,Wodonga,VIC,3690,PO Box 329,,WODONGA,VIC,3689,02 6048 0300,717,Wodonga (C),146.88982,-36.12921
+Government,1,40,Berwick Primary School,Primary,O,37 Fairholme Boulevard,,Berwick,VIC,3806,37 Fairholme Boulevard,,Berwick,VIC,3806,03 9707 1026,161,Casey (C),145.35442,-38.04409
+Government,1,60,Beaufort Primary School,Primary,O,2/37 Park Road,,Beaufort,VIC,3373,P O Box 18,,BEAUFORT,VIC,3373,03 5349 2490,599,Pyrenees (S),143.38172,-37.43852
+Government,1,84,Cheltenham Primary School,Primary,O,231 Charman Road,,Cheltenham,VIC,3192,231 Charman Road,,CHELTENHAM,VIC,3192,03 8585 3200,91,Bayside (C),145.05463,-37.96861
+Government,1,105,Cudgee Primary School,Primary,O,3 Hallowells Road,,Cudgee,VIC,3265,3 Hallowells Road,,CUDGEE,VIC,3265,03 5567 6346,549,Moyne (S),142.65084,-38.34794
+Government,1,113,Newport Lakes Primary School,Primary,O,Elizabeth Street,,Newport,VIC,3015,Elizabeth Street,,NEWPORT,VIC,3015,03 9391 8942,311,Hobsons Bay (C),144.87834,-37.83842
+Government,1,116,Cavendish Primary School,Primary,O,8-10 Barker Street,,Cavendish,VIC,3314,PO Box 28,,CAVENDISH,VIC,3314,03 5574 2282,626,Southern Grampians (S),142.03989,-37.53087
+Government,1,117,Colac Primary School,Primary,O,53-65 Murray Street East,,Colac,VIC,3250,P O Box 325,,COLAC,VIC,3250,03 5231 2560,175,Colac-Otway (S),143.59834,-38.33722
+Government,1,119,Castlemaine Primary School,Primary,O,Cnr Mostyn & Urquhart Street,,Castlemaine,VIC,3450,P O Box 448,,CASTLEMAINE,VIC,3450,03 5472 1452,543,Mount Alexander (S),144.22233,-37.0666
+Government,1,120,Campbells Creek Primary School,Primary,O,127 Main Road,,Campbells Creek,VIC,3451,127 Main Road,,CAMPBELLS CREEK,VIC,3451,03 5472 2180,543,Mount Alexander (S),144.20466,-37.09293
+Government,1,122,Creswick Primary School,Primary,O,67 Napier Street,,Creswick,VIC,3363,P O Box 67,,CRESWICK,VIC,3363,03 5345 2044,291,Hepburn (S),143.89156,-37.42411
+Government,1,123,California Gully Primary School,Primary,O,4-14 Staley Street,,California Gully,VIC,3556,P O Box 88,,CALIFORNIA GULLY,VIC,3556,03 5446 8393,262,Greater Bendigo (C),144.24986,-36.73321
+Government,1,128,St Andrews Primary School,Primary,O,Caledonia Street,,St Andrews,VIC,3761,Caledonia Street,,ST ANDREWS,VIC,3761,03 9710 1255,571,Nillumbik (S),145.26983,-37.60232
+Government,1,182,Warrnambool West Primary School,Primary,O,35 Hoddle Street,,Warrnambool,VIC,3280,35 Hoddle Street,,WARRNAMBOOL,VIC,3280,03 5561 3161,673,Warrnambool (C),142.4668,-38.36634
+Government,1,184,Dromana Primary School,Primary,O,Mcculloch Street,,Dromana,VIC,3936,P O Box 166,,DROMANA,VIC,3936,03 5987 2367,534,Mornington Peninsula (S),144.95965,-38.33964
+Government,1,197,Doncaster Primary School,Primary,O,2 - 12 Council Street,,Doncaster,VIC,3108,P O Box 404,,"Westfield, Doncaster",VIC,3108,03 9848 1122,421,Manningham (C),145.12967,-37.7868
+Government,1,208,Echuca Primary School,Primary,O,413-431 High Street,,Echuca,VIC,3564,413-431 High Street,,ECHUCA,VIC,3564,03 5483 0700,137,Campaspe (S),144.74746,-36.1282
+Government,1,209,Eltham Primary School,Primary,O,Dalton Street,,Eltham,VIC,3095,DALTON STREET,,ELTHAM,VIC,3095,03 9439 9374,571,Nillumbik (S),145.1478,-37.72498
+Government,1,210,Eaglehawk Primary School,Primary,O,Church St,,Eaglehawk,VIC,3556,P O Box 77,,EAGLEHAWK,VIC,3556,03 5446 3722,262,Greater Bendigo (C),144.25426,-36.72058
+Government,1,220,Elphinstone Primary School,Primary,O,26 Wright Street,,Elphinstone,VIC,3448,26 Wright Street,,ELPHINSTONE,VIC,3448,03 5473 3285,543,Mount Alexander (S),144.3329,-37.105
+Government,1,244,Hallam Primary School,Primary,O,24 Harmer Road,,Hallam,VIC,3803,24 Harmer Road,,HALLAM,VIC,3803,03 9703 1536,161,Casey (C),145.25824,-38.00176
+Government,1,250,Flemington Primary School,Primary,O,Cnr Mt Alexander Rd & Padman Lane,,Flemington,VIC,3031,P O Box 7,,FLEMINGTON,VIC,3031,03 9376 7137,506,Moonee Valley (C),144.93392,-37.78067
+Government,1,253,Footscray Primary School,Primary,O,Cnr Geelong Road & Barkly St,,Footscray,VIC,3011,P O Box 6019,,WEST FOOTSCRAY,VIC,3012,03 9687 1910,433,Maribyrnong (C),144.89267,-37.79838
+Government,1,262,Gisborne Primary School,Primary,O,41 Prince Street,,Gisborne,VIC,3437,35 FISHER STREET,,GISBORNE,VIC,3437,03 5428 2022,413,Macedon Ranges (S),144.58844,-37.49086
+Government,1,267,Sandringham Primary School,Primary,O,31 Bamfield Street,,Sandringham,VIC,3191,31 Bamfield Street,,SANDRINGHAM,VIC,3191,03 9598 1488,91,Bayside (C),145.00947,-37.94704
+Government,1,275,Wandiligong Primary School,Primary,O,119 School Road,,Wandiligong,VIC,3744,P O Box  591,,BRIGHT,VIC,3741,03 5755 1026,11,Alpine (S),146.98292,-36.76886
+Government,1,283,Grovedale Primary School,Primary,O,143 Bailey Street,,Grovedale,VIC,3216,143 Bailey Street,,GROVEDALE,VIC,3216,03 5243 3902,275,Greater Geelong (C),144.34776,-38.19764
+Government,1,293,Hawthorn West Primary School,Primary,O,2A Wood Street,,Hawthorn,VIC,3122,2A Wood Street,,HAWTHORN,VIC,3122,03 9818 2233,111,Boroondara (C),145.01838,-37.82011
+Government,1,294,Heidelberg Primary School,Primary,O,120 Cape Street,,Heidelberg,VIC,3084,P O Box 330,,HEIDELBERG,VIC,3084,03 9457 2259,66,Banyule (C),145.0678,-37.7547
+Government,1,295,Hamilton (Gray Street) Primary School,Primary,O,42 Gray Street,,Hamilton,VIC,3300,P O Box 203,,HAMILTON,VIC,3300,03 5571 9295,626,Southern Grampians (S),142.02138,-37.74491
+Government,1,300,Heathcote Primary School,Primary,O,31 Herriot Street,,Heathcote,VIC,3523,P O Box 631,,HEATHCOTE,VIC,3523,03 5433 3090,262,Greater Bendigo (C),144.70685,-36.92401
+Government,1,304,Highton Primary School,Primary,O,218 Roslyn Road,,Highton,VIC,3216,P O Box 6093,,HIGHTON,VIC,3216,03 5243 1494,275,Greater Geelong (C),144.31708,-38.17216
+Government,1,306,Huntly Primary School,Primary,O,101 Brunel Street,,Huntly,VIC,3551,101 Brunel Street,,HUNTLY,VIC,3551,03 5448 8866,262,Greater Bendigo (C),144.3344,-36.66254
+Government,1,319,Bellbrae Primary School,Primary,O,50 School Road,,Bellbrae,VIC,3228,50 School Road,,BELLBRAE,VIC,3228,03 5261 2660,649,Surf Coast (S),144.263,-38.33364
+Government,1,327,Chiltern Primary School,Primary,O,91-101 Albert Road,,Chiltern,VIC,3683,P O Box 30,,CHILTERN,VIC,3683,03 5726 1421,335,Indigo (S),146.6066,-36.14707
+Government,1,343,Kyneton Primary School,Primary,O,49-79 Edgecombe Street,,Kyneton,VIC,3444,P O Box 192,,KYNETON,VIC,3444,03 5422 1855,413,Macedon Ranges (S),144.46269,-37.24889
+Government,1,366,Romsey Primary School,Primary,O,2-56 Station Street,,Romsey,VIC,3434,Station Street,,ROMSEY,VIC,3434,03 5429 5099,413,Macedon Ranges (S),144.74538,-37.35418
+Government,1,379,Shelford Primary School,Primary,O,1717 Shelford-Bannockburn Road,,Shelford,VIC,3329,1717 Shelford-Bannockburn Road,,SHELFORD,VIC,3329,03 5281 3291,249,Golden Plains (S),143.98214,-38.01399
+Government,1,385,Lockwood South Primary School,Primary,O,710 Calder Alternative Highway,,Lockwood South,VIC,3551,710 Calder Alternative Highway,,LOCKWOOD SOUTH,VIC,3551,03 5435 3293,262,Greater Bendigo (C),144.15675,-36.8416
+Government,1,400,Marong Primary School,Primary,O,2 Leslie Street,,Marong,VIC,3515,P O Box 303,,MARONG,VIC,3515,03 5435 2288,262,Greater Bendigo (C),144.13537,-36.73568
+Government,1,415,Mount Macedon Primary School,Primary,O,641 Mount Macedon Road,,Mount Macedon,VIC,3441,641 Mount Macedon Road,,MOUNT MACEDON,VIC,3441,03 5426 1446,413,Macedon Ranges (S),144.58413,-37.40479
+Government,1,427,Mount Clear Primary School,Primary,O,1206 Geelong Road,,Mount Clear,VIC,3350,1206 Geelong Road,,MOUNT CLEAR,VIC,3350,03 5330 1844,57,Ballarat (C),143.86837,-37.60474
+Government,1,430,Melton Primary School,Primary,O,Unitt Street,,Melton,VIC,3337,P O Box 512,,MELTON,VIC,3337,03 9743 5335,465,Melton (C),144.58702,-37.68046
+Government,1,450,Fitzroy Primary School,Primary,O,319 George Street,,Fitzroy,VIC,3065,P O Box 150,,FITZROY,VIC,3065,03 9417 4222,735,Yarra (C),144.98151,-37.7996
+Government,1,452,Newstead Primary School,Primary,O,28 Lyons Street,,Newstead,VIC,3462,28 Lyons Street,,NEWSTEAD,VIC,3462,03 5476 2226,543,Mount Alexander (S),144.06719,-37.10592
+Government,1,453,Newlyn Primary School,Primary,O,2701 Midland Highway,,Newlyn,VIC,3364,2701 Midland Highway,,NEWLYN,VIC,3364,03 5345 7222,291,Hepburn (S),143.98443,-37.41202
+Government,1,454,Burwood East Primary School,Primary,O,Cnr Blackburn And Highbury Rds,,Burwood East,VIC,3151,P O Box 374,,GLEN WAVERLEY,VIC,3150,03 9802 8618,698,Whitehorse (C),145.15181,-37.85973
+Government,1,467,New Gisborne Primary School,Primary,O,239 Station Road,,New Gisborne,VIC,3438,239 Station Road,,NEW GISBORNE,VIC,3438,03 5428 2232,413,Macedon Ranges (S),144.59658,-37.46289
+Government,1,482,Beeac Primary School,Primary,O,35 Lang Street,,Beeac,VIC,3251,35 Lang Street,,BEEAC,VIC,3251,03 5234 6463,175,Colac-Otway (S),143.64428,-38.19397
+Government,1,483,Essendon Primary School,Primary,O,38 Raleigh Street,,Essendon,VIC,3040,38 Raleigh Street,,ESSENDON,VIC,3040,03 9370 7816,506,Moonee Valley (C),144.92104,-37.7531
+Government,1,484,Coburg Primary School,Primary,O,92 Bell Street,,Coburg,VIC,3058,92 Bell Street,,COBURG,VIC,3058,03 9354 9332,525,Moreland (C),144.96821,-37.7413
+Government,1,486,Penshurst Primary School,Primary,O,87 Ritchie Street,,Penshurst,VIC,3289,87 Ritchie Street,,PENSHURST,VIC,3289,03 5576 5433,626,Southern Grampians (S),142.29133,-37.87918
+Government,1,487,Myrniong Primary School,Primary,O,13 Muddy Lane,,Myrniong,VIC,3341,13 Muddy Lane,,MYRNIONG,VIC,3341,03 5368 7232,515,Moorabool (S),144.34632,-37.61972
+Government,1,488,Mernda Primary School,Primary,O,25 Everton Drive,,Mernda,VIC,3754,P O Box 222,,MERNDA,VIC,3754,03 9717 7900,707,Whittlesea (C),145.09224,-37.5946
+Government,1,489,Portland Primary School,Primary,O,45 Palmer Street,,Portland,VIC,3305,P O Box 494,,PORTLAND,VIC,3305,03 4505 3333,241,Glenelg (S),141.59941,-38.3473
+Government,1,502,Stawell Primary School,Primary,O,14-28 Barnes Street,,Stawell,VIC,3380,P O Box 502,,STAWELL,VIC,3380,03 5358 1255,581,Northern Grampians (S),142.77378,-37.05613
+Government,1,522,Rutherglen Primary School,Primary,O,44 Murray Street,,Rutherglen,VIC,3685,P O Box 75,,RUTHERGLEN,VIC,3685,02 6032 9428,335,Indigo (S),146.46061,-36.05621
+Government,1,528,Riddells Creek Primary School,Primary,O,69-77 Main Road,,Riddells Creek,VIC,3431,P O Box 255,,RIDDELLS CREEK,VIC,3431,03 5428 7277,413,Macedon Ranges (S),144.67978,-37.46122
+Government,1,531,Rokewood Primary School,Primary,O,38 Aitchison Street,,Rokewood,VIC,3330,38 AITCHISON Street,,ROKEWOOD,VIC,3330,03 5346 1394,249,Golden Plains (S),143.72281,-37.90366
+Government,1,541,Geelong East Primary School,Primary,O,184 Boundary Road,,Geelong East,VIC,3219,184 Boundary Road,,GEELONG EAST,VIC,3219,03 5248 4885,275,Greater Geelong (C),144.38277,-38.17551
+Government,1,545,Sale Primary School,Primary,O,Macalister Street,,Sale,VIC,3850,P O Box 59,,SALE,VIC,3850,03 5144 5545,681,Wellington (S),147.07364,-38.1083
+Government,1,582,Skipton Primary School,Primary,O,7 Montgomery Street,,Skipton,VIC,3361,Box 61,,SKIPTON,VIC,3361,03 5340 2002,183,Corangamite (S),143.36816,-37.68686
+Government,1,583,South Yarra Primary School,Primary,O,601 Punt Road,,South Yarra,VIC,3141,601 Punt Road,,SOUTH YARRA,VIC,3141,03 9866 3424,460,Melbourne (C),144.98562,-37.84135
+Government,1,596,Stratford Primary School,Primary,O,14 Wellsford Street,,Stratford,VIC,3862,P O Box 84,,STRATFORD,VIC,3862,03 5145 6554,681,Wellington (S),147.08539,-37.96725
+Government,1,614,Taradale Primary School,Primary,O,98 High Street,,Taradale,VIC,3447,98 High Street,,TARADALE,VIC,3447,03 5423 2247,543,Mount Alexander (S),144.35106,-37.14131
+Government,1,618,Koroit And District Primary School,Primary,O,91 Commercial Road,,Koroit,VIC,3282,P O Box 86,,KOROIT,VIC,3282,03 5565 8332,549,Moyne (S),142.3687,-38.29244
+Government,1,621,Tylden Primary School,Primary,O,11 Clowes Street,,Tylden,VIC,3444,11 Clowes Street,,TYLDEN,VIC,3444,03 5424 8244,413,Macedon Ranges (S),144.40878,-37.32497
+Government,1,631,Thomastown Primary School,Primary,O,10 Spring Street,,Thomastown,VIC,3074,10 Spring Street,,THOMASTOWN,VIC,3074,03 9465 2225,707,Whittlesea (C),145.0115,-37.68227
+Government,1,643,Wangaratta Primary School,Primary,O,19 Chisholm Street,,Wangaratta,VIC,3677,P O Box 892,,WANGARATTA,VIC,3676,03 5721 2658,670,Wangaratta (RC),146.32942,-36.35528
+Government,1,644,Wahgunyah Primary School,Primary,O,Elizabeth Street,,Wahgunyah,VIC,3687,Elizabeth Street,,WAHGUNYAH,VIC,3687,02 6033 1265,335,Indigo (S),146.39792,-36.01365
+Government,1,647,Woodend Primary School,Primary,O,146 High Street,,Woodend,VIC,3442,PO Box 318,,WOODEND,VIC,3442,03 5427 2455,413,Macedon Ranges (S),144.53294,-37.35342
+Government,1,648,Woodford Primary School,Primary,O,8 Victoria Street,,Woodford,VIC,3281,8 Victoria Street,,WOODFORD,VIC,3281,03 5562 7632,673,Warrnambool (C),142.4845,-38.31681
+Government,1,649,Werribee Primary School,Primary,O,2 Deutgam Street,,Werribee,VIC,3030,P O Box 432,,WERRIBEE,VIC,3030,03 9742 6659,726,Wyndham (C),144.65874,-37.90687
+Government,1,652,Winters Flat Primary School,Primary,O,3 Roberts Avenue,,Castlemaine,VIC,3450,P O Box 170,,CASTLEMAINE,VIC,3450,03 5472 1522,543,Mount Alexander (S),144.20749,-37.07016
+Government,1,653,Wooragee Primary School,Primary,O,1011 Beechworth-Wodonga Road,,Wooragee,VIC,3747,1011 Beechworth Wodonga Road,,Beechworth,VIC,3747,03 5728 7255,335,Indigo (S),146.73088,-36.29048
+Government,1,664,Wallan Primary School,Primary,O,46-48 Queen Street,,Wallan,VIC,3756,P O Box 74,,WALLAN,VIC,3756,03 5783 1232,485,Mitchell (S),144.97504,-37.41146
+Government,1,688,Woolsthorpe Primary School,Primary,O,12 Manifold Street,,Woolsthorpe,VIC,3276,12 Manifold Street,,WOOLSTHORPE,VIC,3276,03 5569 2241,549,Moyne (S),142.43176,-38.18741
+Government,1,691,Yandoit Primary School,Primary,O,74 High Street,,Yandoit,VIC,3461,74 High Street,,Yandoit,VIC,3461,03 5476 4286,291,Hepburn (S),144.08844,-37.214
+Government,1,693,Yarram Primary School,Primary,O,2-14 Wesley Street,,Yarram,VIC,3971,PO Box 196,,YARRAM,VIC,3971,03 5182 5688,681,Wellington (S),146.67532,-38.55853
+Government,1,695,Pleasant Street Primary School (Ballarat),Primary,O,101 Pleasant St North,,Lake Wendouree,VIC,3350,101 PLEASANT ST NORTH,,LAKE WENDOUREE,VIC,3350,03 5332 2598,57,Ballarat (C),143.8385,-37.55633
+Government,1,699,Yea Primary School,Primary,O,23 Station Street,,Yea,VIC,3717,23 Station Street,,YEA,VIC,3717,03 5797 2724,562,Murrindindi (S),145.4283,-37.21273
+Government,1,707,Lancefield Primary School,Primary,O,80 High Street,,Lancefield,VIC,3435,80 High Street,,LANCEFIELD,VIC,3435,03 5429 2307,413,Macedon Ranges (S),144.72642,-37.27495
+Government,1,716,Coimadai Primary School,Primary,O,86 Bennetts Lane,,Coimadai,VIC,3340,86 Bennetts Lane,,COIMADAI,VIC,3340,03 5367 2907,515,Moorabool (S),144.47831,-37.61379
+Government,1,723,Birregurra Primary School,Primary,O,58 Beal Street,,Birregurra,VIC,3242,58 Beal Street,,BIRREGURRA,VIC,3242,03 5236 2222,175,Colac-Otway (S),143.78651,-38.34046
+Government,1,734,Clayton North Primary School,Primary,O,1714 Dandenong Road,,Clayton,VIC,3168,1714 Dandenong Road,,CLAYTON,VIC,3168,03 9544 1522,497,Monash (C),145.12267,-37.91194
+Government,1,737,Milawa Primary School,Primary,O,133 Milawa-Bobinawarrah Road,,Milawa,VIC,3678,133 Milawa-Bobinawarrah Road,,MILAWA,VIC,3678,03 5727 3243,670,Wangaratta (RC),146.43248,-36.44454
+Government,1,744,Lockwood Primary School,Primary,O,190 Wiegards Road,,Lockwood,VIC,3551,190 Wiegards Road,,LOCKWOOD,VIC,3551,03 5435 3224,262,Greater Bendigo (C),144.16156,-36.80258
+Government,1,749,Bealiba Primary School,Primary,O,9 Grant Street,,Bealiba,VIC,3475,9 Grant St,,BEALIBA,VIC,3475,03 5469 1256,167,Central Goldfields (S),143.5519,-36.78994
+Government,1,754,Bairnsdale Primary School,Primary,O,324 Main Street,,Bairnsdale,VIC,3875,P O Box 679,,BAIRNSDALE,VIC,3875,03 5152 4395,211,East Gippsland (S),147.62323,-37.82742
+Government,1,755,Gordon Primary School,Primary,O,1 Dicker Street,,Gordon,VIC,3345,1 Dicker Street,,GORDON,VIC,3345,03 5368 9223,515,Moorabool (S),144.10505,-37.58385
+Government,1,767,Hepburn Primary School,Primary,O,156 Main Road,,Hepburn,VIC,3461,156 Main Road,,HEPBURN,VIC,3461,03 5348 2531,291,Hepburn (S),144.13276,-37.30972
+Government,1,769,Lara Lake Primary School,Primary,O,89 Forest Road South,,Lara Lake,VIC,3212,P O Box 132,,LARA LAKE,VIC,3212,03 5282 1261,275,Greater Geelong (C),144.39564,-38.0304
+Government,1,770,Rosedale Primary School,Primary,O,1-23 Cricket Street,,Rosedale,VIC,3847,P O Box 182,,ROSEDALE,VIC,3847,03 5199 2473,681,Wellington (S),146.7739,-38.1546
+Government,1,776,Bright P-12 College,Pri/Sec,O,46 Bakers Gully Road,,Bright,VIC,3741,P O Box 30,,BRIGHT,VIC,3741,03 5755 1166,11,Alpine (S),146.96093,-36.7331
+Government,1,795,Rochester Primary School,Primary,O,2 George Street,,Rochester,VIC,3561,P O Box 142,,ROCHESTER,VIC,3561,03 5484 1072,137,Campaspe (S),144.698,-36.3546
+Government,1,800,Ararat Primary School,Primary,O,70 - 78 Moore Street,,Ararat,VIC,3377,P O Box 225,,ARARAT,VIC,3377,03 5352 1253,26,Ararat (RC),142.93731,-37.28594
+Government,1,814,Jamieson Primary School,Primary,O,1 The Sideling,,Jamieson,VIC,3723,P O Box 21,,JAMIESON,VIC,3723,03 5777 0535,425,Mansfield (S),146.14,-37.30126
+Government,1,824,Preston South Primary School,Primary,O,56B Hotham Street,,Preston,VIC,3072,P O Box 1527,,PRESTON,VIC,3072,03 9484 1544,189,Darebin (C),145.00745,-37.74787
+Government,1,831,Omeo Primary School,Primary,O,167 Day Avenue,,Omeo,VIC,3898,P O Box 40,,OMEO,VIC,3898,03 5159 1313,211,East Gippsland (S),147.59308,-37.10022
+Government,1,843,Harrietville Primary School,Primary,O,165 Great Alpine Road,,Harrietville,VIC,3741,165 Great Alpine Road,,HARRIETVILLE,VIC,3741,03 5759 2533,11,Alpine (S),147.06494,-36.88771
+Government,1,846,Mordialloc Beach Primary School,Primary,O,58 Barkly Street,,Mordialloc,VIC,3195,58 Barkly Street,,Mordialloc,VIC,3195,03 9580 1468,343,Kingston (C),145.08881,-38.00558
+Government,1,849,Healesville Primary School,Primary,O,2 View Street,,Healesville,VIC,3777,P O Box 222,,HEALESVILLE,VIC,3777,03 5962 4053,745,Yarra Ranges (S),145.51604,-37.65713
+Government,1,854,Lake Bolac College,Pri/Sec,O,90 Montgomery Street,,Lake Bolac,VIC,3351,90 Montgomery Street,,LAKE BOLAC,VIC,3351,03 5350 2302,26,Ararat (RC),142.8379,-37.72024
+Government,1,856,Toongabbie Primary School,Primary,O,Victoria Street,,Toongabbie,VIC,3856,Victoria Street,,TOONGABBIE,VIC,3856,03 5192 4384,381,Latrobe (C),146.62518,-38.05697
+Government,1,859,Waubra Primary School,Primary,O,2110 Sunraysia Highway,,Waubra,VIC,3352,2110 Sunraysia Highway,,WAUBRA,VIC,3352,03 5343 5358,599,Pyrenees (S),143.63446,-37.35384
+Government,1,860,Great Western Primary School,Primary,O,Stephenson Street,,Great Western,VIC,3374,Stephenson Street,,GREAT WESTERN,VIC,3374,03 5356 2235,581,Northern Grampians (S),142.85173,-37.14851
+Government,1,861,Maffra Primary School,Primary,O,22-28 Church Street,,Maffra,VIC,3860,P O Box 160,,MAFFRA,VIC,3860,03 5147 1236,681,Wellington (S),146.97677,-37.964
+Government,1,862,Broken Creek Primary School,Primary,O,413 Quinn Road,,Broken Creek,VIC,3673,413 Quinn Road,,Broken Creek,VIC,3673,03 5764 1253,101,Benalla (RC),145.88923,-36.42328
+Government,1,863,Lal Lal Primary School,Primary,O,12 Vaughan Street,,Lal Lal,VIC,3352,12 Vaughan Street,,LAL LAL,VIC,3352,03 5341 7580,515,Moorabool (S),144.01071,-37.67672
+Government,1,864,Cobden Primary School,Primary,O,Silvester Street,,Cobden,VIC,3266,Silvester Street,,COBDEN,VIC,3266,03 5595 1087,183,Corangamite (S),143.07812,-38.32712
+Government,1,866,St Leonards Primary School,Primary,O,1341 Murradoc Road,,St Leonards,VIC,3223,1341 Murradoc Road,,ST LEONARDS,VIC,3223,03 5257 1460,275,Greater Geelong (C),144.71475,-38.17184
+Government,1,876,Lilydale Primary School,Primary,O,63 - 65 Castella Street,,Lilydale,VIC,3140,63 - 65 Castella Street,,Lilydale,VIC,3140,03 9735 1642,745,Yarra Ranges (S),145.35407,-37.75367
+Government,1,877,Bendigo Primary School,Primary,O,Old Violet Street,,Bendigo,VIC,3550,P O Box 316,,BENDIGO,VIC,3552,03 5443 6411,262,Greater Bendigo (C),144.26524,-36.75702
+Government,1,878,Darraweit Guim Primary School,Primary,O,2 Darraweit Valley Road,,Darraweit Guim,VIC,3756,2 Darraweit Valley Road,,DARRAWEIT GUIM,VIC,3756,03 5789 1234,413,Macedon Ranges (S),144.89357,-37.40103
+Government,1,880,Linton Primary School,Primary,O,28 Adair Street,,Linton,VIC,3360,28 Adair Street,,LINTON,VIC,3360,03 5344 7341,249,Golden Plains (S),143.56131,-37.68407
+Government,1,882,Invermay Primary School,Primary,O,187 Swinglers Road,,Invermay,VIC,3352,187 Swinglers Road,,INVERMAY,VIC,3352,03 5332 6396,57,Ballarat (C),143.87458,-37.52053
+Government,1,887,Mitta Mitta Primary School,Primary,O,27 Giltrap Road,,Mitta Mitta,VIC,3701,27 Giltrap Road,,MITTA MITTA,VIC,3701,02 6072 3570,667,Towong (S),147.37948,-36.53341
+Government,1,888,Camberwell Primary School,Primary,O,290 Camberwell Road,,Camberwell,VIC,3124,290 Camberwell Road,,CAMBERWELL,VIC,3124,03 9882 4663,111,Boroondara (C),145.05805,-37.83268
+Government,1,890,Greenvale Primary School,Primary,O,12-24 Bradford Avenue,,Greenvale,VIC,3059,12-24 Bradford Avenue,,GREENVALE,VIC,3059,03 9333 2500,327,Hume (C),144.88618,-37.63983
+Government,1,912,Alexandra Primary School,Primary,O,15 Webster Street,,Alexandra,VIC,3714,P O Box 318,,ALEXANDRA,VIC,3714,03 5772 1006,562,Murrindindi (S),145.7117,-37.19257
+Government,1,919,Rockbank Primary School,Primary,O,97-105 Westcott Parade,,Rockbank,VIC,3335,P O Box 620,,MELTON,VIC,3337,03 9747 1210,465,Melton (C),144.6619,-37.73215
+Government,1,932,Bannockburn P-12 College,Pri/Sec,O,139 Milton Street,,Bannockburn,VIC,3331,139 Milton St,,BANNOCKBURN,VIC,3331,03 5281 1755,249,Golden Plains (S),144.16067,-38.042
+Government,1,945,Doreen Primary School,Primary,O,75 Doctors Gully Road,,Doreen,VIC,3754,75 Doctors Gully Road,,DOREEN,VIC,3754,03 9717 3563,571,Nillumbik (S),145.14554,-37.60601
+Government,1,954,Talbot Primary School,Primary,O,2 Rowe Street,,Talbot,VIC,3371,2 Rowe Street,,TALBOT,VIC,3371,03 5463 2373,167,Central Goldfields (S),143.7036,-37.16865
+Government,1,956,Yarra Glen Primary School,Primary,O,35 Symonds Street,,Yarra Glen,VIC,3775,35 Symonds Street,,Yarra Glen,VIC,3775,03 9730 1254,745,Yarra Ranges (S),145.37241,-37.6497
+Government,1,981,Kangaroo Flat Primary School,Primary,O,60-80 Olympic Parade,,Kangaroo Flat,VIC,3555,P O BOX 1244,,KANGAROO FLAT,VIC,3555,03 5447 5100,262,Greater Bendigo (C),144.23409,-36.78768
+Government,1,982,Westmeadows Primary School,Primary,O,34-46 Riddell Street,,Westmeadows,VIC,3049,34-46 Riddell Street,,Westmeadows,VIC,3049,03 9309 4350,327,Hume (C),144.8957,-37.67565
+Government,1,1002,Sunbury Primary School,Primary,O,41 The Heights,,Sunbury,VIC,3429,P O Box 212,,SUNBURY,VIC,3429,03 9744 9744,327,Hume (C),144.72814,-37.59769
+Government,1,1003,Diamond Creek Primary School,Primary,O,17 Clyde Street,,Diamond Creek,VIC,3089,17 Clyde Street,,DIAMOND CREEK,VIC,3089,03 9438 1108,571,Nillumbik (S),145.15165,-37.67185
+Government,1,1004,Hesket Primary School,Primary,O,800 Romsey Road,,Hesket,VIC,3442,P O Box 654,,Woodend,VIC,3442,03 5427 0330,413,Macedon Ranges (S),144.61978,-37.34781
+Government,1,1008,Axedale Primary School,Primary,O,81 High Street,,Axedale,VIC,3551,81 High Street,,AXEDALE,VIC,3551,03 5439 7232,262,Greater Bendigo (C),144.50146,-36.78623
+Government,1,1022,Vermont Primary School,Primary,O,4-10 Nurlendi Road,,Vermont,VIC,3133,PO BOX 53,,VERMONT,VIC,3133,03 9874 2511,698,Whitehorse (C),145.1943,-37.83736
+Government,1,1023,Tarnagulla Primary School,Primary,O,51 Stanley Street,,Tarnagulla,VIC,3551,51 Stanley Street,,TARNAGULLA,VIC,3551,03 5438 7355,394,Loddon (S),143.8284,-36.77126
+Government,1,1026,Balwyn Primary School,Primary,O,86B Balwyn Road,,Balwyn,VIC,3103,86B Balwyn Road,,BALWYN,VIC,3103,03 9836 7121,111,Boroondara (C),145.08138,-37.81394
+Government,1,1028,Scoresby Primary School,Primary,O,11 Ingrid Street,,Scoresby,VIC,3179,11 Ingrid Street,,SCORESBY,VIC,3179,03 9763 7484,367,Knox (C),145.2275,-37.89395
+Government,1,1030,Carisbrook Primary School,Primary,O,2  Camp Street,,Carisbrook,VIC,3464,2 Camp Street,,CARISBROOK,VIC,3464,03 5464 2444,167,Central Goldfields (S),143.81266,-37.05206
+Government,1,1033,Wandin Yallock Primary School,Primary,O,105 Beenak Road,,Wandin North,VIC,3139,105 Beenak Road,,WANDIN NORTH,VIC,3139,03 5964 4276,745,Yarra Ranges (S),145.43595,-37.79025
+Government,1,1034,Yering Primary School,Primary,O,22-24 Melba Highway,,Yering,VIC,3770,P O Box 139,,Coldstream,VIC,3770,03 9739 1451,745,Yarra Ranges (S),145.38222,-37.70535
+Government,1,1035,Dartmoor Primary School,Primary,O,76 Greenham Street,,Dartmoor,VIC,3304,PO Box 35,,DARTMOOR,VIC,3304,03 5528 1382,241,Glenelg (S),141.27673,-37.92302
+Government,1,1051,Mickleham Primary School,Primary,O,1880 Mickleham Road,,Mickleham,VIC,3064,1880 Mickleham Road,,MICKLEHAM,VIC,3064,03 9745 2250,327,Hume (C),144.87655,-37.5635
+Government,1,1052,Inglewood Primary School,Primary,O,77 Sullivan Street,,Inglewood,VIC,3517,77 Sullivan Street,,INGLEWOOD,VIC,3517,03 5438 3303,394,Loddon (S),143.87045,-36.57394
+Government,1,1054,Chewton Primary School,Primary,O,1 Hunter Street,,Chewton,VIC,3451,1 Hunter Street,,CHEWTON,VIC,3451,03 5472 2557,543,Mount Alexander (S),144.26116,-37.08233
+Government,1,1070,Bolinda Primary School,Primary,O,1 Mullalys Road,,Bolinda,VIC,3432,1 Mullalys Road,,BOLINDA,VIC,3432,03 5428 5317,413,Macedon Ranges (S),144.7454,-37.43373
+Government,1,1072,Napoleons Primary School,Primary,O,4721 Colac-Ballarat Road,,Napoleons,VIC,3352,4721 Colac-Ballarat Road,,NAPOLEONS,VIC,3352,03 5342 0414,249,Golden Plains (S),143.82646,-37.67863
+Government,1,1075,Kew Primary School,Primary,O,Peel Street,,Kew,VIC,3101,Peel Street,,KEW,VIC,3101,03 9853 8325,111,Boroondara (C),145.03339,-37.80364
+Government,1,1076,Haddon Primary School,Primary,O,398 Sago Hill Road,,Haddon,VIC,3351,398 Sago Hill Road,,HADDON,VIC,3351,03 4344 4139,249,Golden Plains (S),143.72171,-37.58864
+Government,1,1079,Panmure Primary School,Primary,O,8759 Princes Highway,,Panmure,VIC,3265,C/o Post Office Panmure,,PANMURE,VIC,3265,03 5567 6264,549,Moyne (S),142.73253,-38.32935
+Government,1,1090,Sorrento Primary School,Primary,O,32 Kerferd Avenue,,Sorrento,VIC,3943,P O Box 121,,SORRENTO,VIC,3943,03 5984 2130,534,Mornington Peninsula (S),144.74069,-38.34148
+Government,1,1091,Alfredton Primary School,Primary,O,89a Cuthberts Road,,Alfredton,VIC,3350,89a Cuthberts Road,,ALFREDTON,VIC,3350,03 5334 1572,57,Ballarat (C),143.8021,-37.5548
+Government,1,1097,Bridgewater Primary School,Primary,O,34 - 44 Eldon Street,,Bridgewater On Loddon,VIC,3516,PO BOX 62,,BRIDGEWATER,VIC,3516,03 5437 3081,394,Loddon (S),143.94592,-36.6031
+Government,1,1098,Hastings Primary School,Primary,O,10 - 20 Hodgins Road,,Hastings,VIC,3915,10 - 20 Hodgins Road,,HASTINGS,VIC,3915,03 5979 1517,534,Mornington Peninsula (S),145.18947,-38.2997
+Government,1,1103,Yackandandah Primary School,Primary,O,39 High Street,,Yackandandah,VIC,3749,39 High Street,,YACKANDANDAH,VIC,3749,02 6027 1431,335,Indigo (S),146.83646,-36.3121
+Government,1,1104,Nagambie Primary School,Primary,O,31 Goulburn Street,,Nagambie,VIC,3608,31 Goulburn Street,,NAGAMBIE,VIC,3608,03 5794 2273,643,Strathbogie (S),145.15723,-36.78759
+Government,1,1108,Heyfield Primary School,Primary,O,22 Temple Street,,Heyfield,VIC,3858,P O Box 172,,HEYFIELD,VIC,3858,03 5148 2666,681,Wellington (S),146.78494,-37.98211
+Government,1,1111,Moorabbin Primary School,Primary,O,61 Worthing Road,,Moorabbin,VIC,3189,61 Worthing Road,,MOORABBIN,VIC,3189,03 9555 1101,343,Kingston (C),145.03959,-37.94202
+Government,1,1112,Mansfield Primary School,Primary,O,4 Apollo Street,,Mansfield,VIC,3722,P O Box 401,,MANSFIELD,VIC,3724,03 5775 2325,425,Mansfield (S),146.08482,-37.05559
+Government,1,1115,Middle Indigo Primary School,Primary,O,710 Indigo Creek Road,,Indigo Valley,VIC,3688,710 Indigo Creek Rd,,Indigo Valley,VIC,3688,02 6026 9235,335,Indigo (S),146.72484,-36.15601
+Government,1,1117,Briagolong Primary School,Primary,O,2 Church Street,,Briagolong,VIC,3860,2 Church Street,,BRIAGOLONG,VIC,3860,03 5145 5260,681,Wellington (S),147.06784,-37.8428
+Government,1,1120,Lindenow Primary School,Primary,O,140 Henry Street,,Lindenow,VIC,3865,140 HENRY STREET,,LINDENOW,VIC,3865,03 5157 1340,211,East Gippsland (S),147.45327,-37.80088
+Government,1,1125,Broadford Primary School,Primary,O,17-23 Powlett Street,,Broadford,VIC,3658,P O Box 109,,BROADFORD,VIC,3658,03 5784 1221,485,Mitchell (S),145.0463,-37.20257
+Government,1,1126,Murchison Primary School,Primary,O,8 - 10 Impey Street,,Murchison,VIC,3610,P O Box 85,,MURCHISON,VIC,3610,03 5826 2391,283,Greater Shepparton (C),145.21429,-36.61718
+Government,1,1134,Panton Hill Primary School,Primary,O,585 Kangaroo Grd-St Andrews Rd,,Panton Hill,VIC,3759,585 Kangaroo Grd-St Andrews Rd,,PANTON HILL,VIC,3759,03 9719 7202,571,Nillumbik (S),145.23956,-37.64161
+Government,1,1135,Glen Park Primary School,Primary,O,265 Ralstons Road,,Glen Park,VIC,3352,265 Ralstons Road,,GLEN PARK,VIC,3352,03 5334 5360,515,Moorabool (S),143.9348,-37.52478
+Government,1,1136,Concongella Primary School,Primary,O,61 Concongella School Road,,CONCONGELLA,VIC,3384,61 Concongella School Road,,CONCONGELLA,VIC,3384,03 5358 1811,581,Northern Grampians (S),142.82232,-37.04956
+Government,1,1141,Bruthen Primary School,Primary,O,31 Great Alpine Road,,Bruthen,VIC,3885,PO Box 101,,BRUTHEN,VIC,3885,03 5157 5445,211,East Gippsland (S),147.83349,-37.70421
+Government,1,1142,Swan Hill Primary School,Primary,O,123 Gray Street,,Swan Hill,VIC,3585,P O Box 798,,SWAN HILL,VIC,3585,03 5032 1336,661,Swan Hill (RC),143.54325,-35.34691
+Government,1,1144,Porepunkah Primary School,Primary,O,2 Martley Street,,Porepunkah,VIC,3740,2 Martley Street,,POREPUNKAH,VIC,3740,03 5756 2253,11,Alpine (S),146.91102,-36.69949
+Government,1,1146,Leopold Primary School,Primary,O,1 Kensington Road,,Leopold,VIC,3224,P O Box 42,,LEOPOLD,VIC,3224,03 5250 1233,275,Greater Geelong (C),144.46437,-38.18726
+Government,1,1147,Inverleigh Primary School,Primary,O,54 High Street,,Inverleigh,VIC,3321,54 High St,,INVERLEIGH,VIC,3321,03 5265 1340,249,Golden Plains (S),144.05469,-38.10094
+Government,1,1148,Glen Iris Primary School,Primary,O,170 Glen Iris Road,,Glen Iris,VIC,3146,170 Glen Iris Road,,GLEN IRIS,VIC,3146,03 9885 3624,111,Boroondara (C),145.06589,-37.86048
+Government,1,1150,Trawalla Primary School,Primary,O,11 Trawalla Road,,Trawalla,VIC,3373,11 Trawalla Road,,TRAWALLA,VIC,3373,03 5349 2047,599,Pyrenees (S),143.46986,-37.43773
+Government,1,1165,Quarry Hill Primary School,Primary,O,25 Peel Street,,Quarry Hill,VIC,3550,P O Box 2118,,BENDIGO DC,VIC,3554,03 5443 3537,262,Greater Bendigo (C),144.27998,-36.77512
+Government,1,1167,Sebastopol Primary School,Primary,O,9 Warreen Street,,Sebastopol,VIC,3356,P O Box 246,,SEBASTOPOL,VIC,3356,03 5335 8157,57,Ballarat (C),143.84472,-37.59643
+Government,1,1176,Woodside Primary School,Primary,O,39-41 Prince St,,Woodside,VIC,3874,39-41 Prince St
