@@ -16,3 +16,16 @@
 - [x] ZONGCHAO XIE
 
 ### Agenda:
+1. Domain Dataset
+   - Already update to `main`.
+2. External Dataset
+   - For all external data, we finished basic pre-processing.
+   - All external data can be downloaded via URL. 
+   - The dataset contains only Victoria data, and some transformations have been made to make the dataset easy to visualize and join with rental property data.
+   - We use Statistical Areas Level 2 (SA2) to derive population forecast. 
+   - At present, the features of the external data we have selected are all the external dataset that we list in sprint 2 meeting.
+3. Sprint 3 todo
+- [ ] Find the proximity to the closest train station, this can be done by leveraging an API such as Open Route Service.(all group memebers)
+- [ ] If train station is already finished, we can do other external dataset later.(all group memebers)
+- [ ] Summarize all external raw data done with pull request. (WU and LI)
+- [ ] Start listing out the features that make a property more expensive or sought after.
