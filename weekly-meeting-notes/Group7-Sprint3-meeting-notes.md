@@ -7,8 +7,10 @@
     - [Agenda:](#agenda)
   - [Meeting Time: 3:30pm - 5:00pm, 13/9/2022, Wednesday](#meeting-time-330pm---500pm-1392022-wednesday)
     - [Agenda:](#agenda-1)
-  - [Expected Meeting Time: Sunday](#expected-meeting-time-sunday)
+  - [Expected Meeting Time: Friday](#expected-meeting-time-friday)
     - [Agenda:](#agenda-2)
+  - [Expected Meeting Time: Sunday](#expected-meeting-time-sunday)
+    - [Agenda:](#agenda-3)
    
 ## Meeting Time: 4:15pm - 6:15pm, 12/9/2022, Monday
 **Members Attend:**
@@ -85,6 +87,14 @@
 
 1. "Start listing out the features that make a property more expensive or sought after" Problem
    - Not start yet
+
+## Expected Meeting Time: Friday
+
+### Agenda:
+1. Still discuss and try to finish problem above
+
+
+**We are planning to have group meeting during Friday, the meeting notes will be complete and show on Sprint 4 Meeting Checkpoint**
 
 ## Expected Meeting Time: Sunday
 
