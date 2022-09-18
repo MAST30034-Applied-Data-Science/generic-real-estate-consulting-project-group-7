@@ -3,6 +3,9 @@ from shapely.geometry import Point
 import geopandas as gpd
 
 postcode_df = gpd.read_file("../../data/external-raw-data/POSTCODE/POSTCODE_POLYGON.shp")
+sf = gpd.read_file("../../data/external-raw-data/VMFEAT/FOI_POINT.shp")
+VIC_FOI = sf.loc[sf['STATE']=='VIC']
+
 
 def point_to_coor(df):
     """
