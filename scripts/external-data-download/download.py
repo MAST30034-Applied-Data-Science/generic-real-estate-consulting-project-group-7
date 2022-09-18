@@ -7,13 +7,10 @@ import re
 import unicodedata
 import json
 import os
-
 from bs4 import BeautifulSoup
 import requests
-
 import geopandas as gpd
 import folium
-
 from utils import *
 from urllib.request import urlretrieve
 from selenium import webdriver
@@ -278,5 +275,3 @@ class download:
         # download.emergency_service()
         # download.public_service()
         # download.care_facility()
-        # download.school_postcode()
-        # download.school_rank()
