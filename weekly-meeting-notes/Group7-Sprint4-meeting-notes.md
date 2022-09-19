@@ -73,6 +73,7 @@
 - [x] preprocessing
   - remove postcode not within metro melbourne
   - remove postcode with less than 10 property (assumptions)
+  - sample 50%, remaining 6073
 - [ ] still need to decrease size?
 - [ ] once finished, merge curated dataset to main
 
@@ -86,6 +87,9 @@
   - [x] download.public_service()
   - [x] download.care_facility()
   - [ ] download.school()
+    - top 3 name with distance
+    - merge with rank
+    - feature = rank
   - [ ] download.income()
   - [ ] download.growth_rate()
   - [ ] download.criminal()
