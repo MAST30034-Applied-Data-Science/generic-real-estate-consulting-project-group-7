@@ -74,6 +74,9 @@
   - remove postcode not within metro melbourne
   - remove postcode with less than 10 property (assumptions)
   - sample 50%, remaining 6073
+
+![Drag Racing](../plots/meeting_minutes/sprint4-sample.jpeg)
+
 - [ ] still need to decrease size?
 - [ ] once finished, merge curated dataset to main
 
