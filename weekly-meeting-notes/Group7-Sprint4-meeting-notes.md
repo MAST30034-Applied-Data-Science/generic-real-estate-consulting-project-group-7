@@ -9,12 +9,12 @@
     - [Agenda:](#agenda)
   - [Meeting Time: 4:15pm - 6:15pm, 19/9/2022, Monday](#meeting-time-415pm---615pm-1992022-monday)
     - [Agenda:](#agenda-1)
-      - [Domain Dataset](#domain-dataset)
-      - [External Dataset](#external-dataset)
-      - [ors problem](#ors-problem)
-      - [All external dataset with features](#all-external-dataset-with-features)
-      - [Modelling (prediction and analysis)](#modelling-prediction-and-analysis)
-      - [Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.](#additionally-prepare-a-summary-notebook-3-5-minutes-max-including-current-findings-and-any-additional-insights-so-far-this-task-should-assist-in-helping-groups-formulate-their-answers-to-the-3-big-questions)
+      - [***Domain Dataset***](#domain-dataset)
+      - [***External Dataset***](#external-dataset)
+      - [***ors problem***](#ors-problem)
+      - [***All external dataset with features***](#all-external-dataset-with-features)
+      - [***Modelling (prediction and analysis)***](#modelling-prediction-and-analysis)
+      - [***Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.***](#additionally-prepare-a-summary-notebook-3-5-minutes-max-including-current-findings-and-any-additional-insights-so-far-this-task-should-assist-in-helping-groups-formulate-their-answers-to-the-3-big-questions)
    
 ## Meeting Time: 2:00pm - 3:30pm, 16/9/2022, Friday
 **Members Attend:**
@@ -65,7 +65,7 @@
 ### Agenda:
 **This weeks agenda is including all working stuff(already done) and tghe todo list during mid-break**
 
-#### Domain Dataset
+#### ***Domain Dataset***
 - [x] download
 - [x] visualization
 - [x] README.md
@@ -76,7 +76,7 @@
 - [ ] still need to decrease size?
 - [ ] once finished, merge curated dataset to main
 
-#### External Dataset
+#### ***External Dataset***
 - [x] download
 - [ ] summarize and step 1 preprocess
   - [x] download.property_and_elector()
@@ -93,19 +93,26 @@
 - [ ] README.md
 - [ ] merge raw dataset to main
 
-#### ors problem
+#### ***ors problem***
 - [x] proximity to the closest MELBOURNE CBD
+
 ![Drag Racing](../plots/meeting_minutes/sprint4-cbd.png)
+
 - [ ] proximity to the closest train station
+
+![Drag Racing](../plots/meeting_minutes/sprint4-station.jpeg)
+
   - still face time-out problem, should we sample main data??????
 
-#### All external dataset with features
+![Drag Racing](../plots/meeting_minutes/sprint4-problem.jpeg)
 
-#### Modelling (prediction and analysis)
+#### ***All external dataset with features***
+
+#### ***Modelling (prediction and analysis)***
 - [ ] Begin forecasting the rental properties for the next 3 years by suburb or any other suitable granularity. 
 
     **Rather, we will focus our assessment on the assumptions and approaches you took to obtain that result**
 - [ ] Present some analysis on what features are useful in making a certain suburb more expensive and sought after
 - [ ] focusing on big 3 questions
 
-#### Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.
+#### ***Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.***
