@@ -89,13 +89,13 @@
   - [x] download.emergency_service()
   - [x] download.public_service()
   - [x] download.care_facility()
-  - [ ] download.school()
   - [ ] download.income()
     - [x] url_suburb_to_postcode
     - [ ] total_income (error)
     - [ ] income
   - [ ] download.growth_rate()
   - [ ] download.criminal()
+  - [ ] download.school()
     - [x] already get the idea which can download all school and distance from domain website
     - [x] waiting for url
     - [ ] download all 
