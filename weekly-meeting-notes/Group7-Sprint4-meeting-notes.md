@@ -93,7 +93,7 @@
     - [x] url_suburb_to_postcode
     - [x] total_income (error)
     - [x] income
-  - [ ] download.growth_rate()
+  - [x] download.growth_rate()
   - [ ] download.criminal()
   - [ ] download.school()
     - [x] already get the idea which can download all school and distance from domain website
@@ -102,6 +102,7 @@
     - [ ] download rank dataset
     - [ ] merge with rank
     - [ ] feature = rank or distance
+- [ ] comments done
 - [ ] visualization
 - [ ] README.md
 - [ ] merge raw dataset to main
