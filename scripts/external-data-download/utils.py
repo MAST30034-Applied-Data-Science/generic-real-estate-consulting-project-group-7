@@ -123,3 +123,13 @@ def url_suburb_to_postcode():
     """
     output_convert = '../../data/external-raw-data/suburb-to-postcode.csv'
     gdown.download(url_suburb_to_postcode, output_convert, quiet=False)
+
+
+def population():
+    """
+    
+    """
+    url_population = "https://www.planning.vic.gov.au/__data/assets/excel_doc/0027/424386/VIF2019_Pop_Hholds_Dws_ASGS_2036.xlsx"
+    resp = requests.get(url_population)
+    output = open('../../data/external-raw-data/population.xlsx', 'wb')
+    output.write(resp.content)

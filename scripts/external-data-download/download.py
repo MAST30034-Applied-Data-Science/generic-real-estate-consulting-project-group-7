@@ -283,9 +283,26 @@ class download:
 
         return ()
 
+    @staticmethod
+    def population_growth():
+        """
+        
+        """
+        xls = pd.ExcelFile('../../data/external-raw-data/population.xlsx')
 
+        df_population = xls.parse('Population', skiprows=11, index_col=None, na_values=['NA'])
+        # delect useless row
+        df_population = df_population.drop(labels=[0,548,549,550,551], axis=0)
+        # only retain SA2 region rows
+        df_population = df_population.loc[df_population['Area Type'] == "SA2"]
+        df_population['population_growth_rate_2021-2031'] = (df_population[2031] - df_population[2021])/df_population[2021]
+        df_population = df_population[['SA2','Area Name','population_growth_rate_2021-2031']]
 
+        filename = 'population_growth.csv'
+        output_dir_full = f'{output_dir}{filename}'
+        df_population.to_csv(output_dir_full)
 
+        return ()
 
 
     @staticmethod
@@ -304,3 +321,4 @@ class download:
         # download.care_facility()
         # download.income()
         # download.school()
+        download.population_growth()
