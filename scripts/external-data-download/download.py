@@ -16,6 +16,42 @@ from urllib.request import urlretrieve
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import gdown
+import pickle
+from school_scraper import *
+
+
+from pyspark.sql import SparkSession, functions as F
+from pyspark.sql.functions import col, isnan, when, count, mean, udf, split, unix_timestamp, from_unixtime, lower
+from pyspark.sql.types import StringType, IntegerType, FloatType
+
+# init SparkSession class
+spark = (
+    # if available consider use yarn master node
+    SparkSession.builder.master("local[*]") 
+    
+    # spark executor env configuratio
+    .config("spark.executor.memory", "8g")
+    .config("spark.driver.memory", "16g")
+    .config("spark.executor.cores", "2")
+    .config("spark.executor.instances", "6")
+    .config("spark.sql.session.timeZone", "Etc/UTC")
+    
+    # jvm memory configuration
+    .config("spark.memory.offHeap.enabled", "true")
+    .config("spark.memory.offHeap.size", "8g")
+    
+    # parquet file load configuration
+    .config("spark.sql.repl.eagerEval.enabled", 'true')
+    .config("spark.sql.parquet.cacheMetadata", 'true')
+    
+    # build the session
+    .appName("Pyspark Start Template") # change app name here
+    .getOrCreate()
+)
+
+# change default log level
+spark.sparkContext.setLogLevel('ERROR')
+
 
 
 output_dir = '../../data/raw/external-data/'
@@ -229,6 +265,30 @@ class download:
 
 
     @staticmethod
+    def school():
+        """
+        
+        """
+        df = spark.read.parquet('../../data/raw/domain-website-data/*')
+        df_url = df.select('url').toPandas()
+        a = set(df_url['url'][:2])
+
+        with open('link', 'wb') as file:
+            pickle.dump(a, file, protocol = pickle.HIGHEST_PROTOCOL)
+
+        with open('link', 'rb') as file:
+            links = pickle.load(file)
+        
+        domain_properties_info(links)
+
+        return ()
+
+
+
+
+
+
+    @staticmethod
     def download_all():
         """
         
@@ -242,4 +302,5 @@ class download:
         # download.emergency_service()
         # download.public_service()
         # download.care_facility()
-        download.income()
+        # download.income()
+        # download.school()

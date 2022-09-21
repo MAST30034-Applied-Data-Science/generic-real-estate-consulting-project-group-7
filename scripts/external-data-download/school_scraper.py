@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 from constants import headers, home_url
-from utils import domain_property_info, domain_property_links
+from school_utils import domain_property_info, domain_property_links
 from tqdm import tqdm
 import constants
 
@@ -50,7 +50,7 @@ def domain_properties_info(links: list[str]) -> DataFrame:
 
     # save the property_df to parquet format
     domain_properties.reset_index(drop=True).to_parquet(
-        "../../scripts/school2/1/domain_samples.parquet"
+        "../../data/raw/external-data/school/domain_samples.parquet"
     )
 
     return domain_properties
