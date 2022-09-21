@@ -89,10 +89,10 @@
   - [x] download.emergency_service()
   - [x] download.public_service()
   - [x] download.care_facility()
-  - [ ] download.income()
+  - [x] download.income()
     - [x] url_suburb_to_postcode
-    - [ ] total_income (error)
-    - [ ] income
+    - [x] total_income (error)
+    - [x] income
   - [ ] download.growth_rate()
   - [ ] download.criminal()
   - [ ] download.school()
