@@ -90,12 +90,18 @@
   - [x] download.public_service()
   - [x] download.care_facility()
   - [ ] download.school()
-    - top 3 name with distance
-    - merge with rank
-    - feature = rank
   - [ ] download.income()
+    - [x] url_suburb_to_postcode
+    - [ ] total_income (error)
+    - [ ] income
   - [ ] download.growth_rate()
   - [ ] download.criminal()
+    - [x] already get the idea which can download all school and distance from domain website
+    - [x] waiting for url
+    - [ ] download all 
+    - [ ] download rank dataset
+    - [ ] merge with rank
+    - [ ] feature = rank or distance
 - [ ] visualization
 - [ ] README.md
 - [ ] merge raw dataset to main
