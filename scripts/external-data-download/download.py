@@ -320,5 +320,5 @@ class download:
         # download.public_service()
         # download.care_facility()
         # download.income()
-        # download.school()
-        download.population_growth()
+        download.school()
+        # download.population_growth()
