@@ -265,7 +265,7 @@ class download:
 
 
     @staticmethod
-    def school():
+    def school_domain_web_scrape():
         """
         
         """
@@ -346,6 +346,48 @@ class download:
         return ()
 
 
+    @staticmethod
+    def shopping_center():
+        """
+        some codes are from: 
+            https://medium.com/analytics-vidhya/how-to-scrape-a-table-from-website-using-python-ce90d0cfb607
+        """
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # home url of top scores
+        home_url = 'https://www.australia-shoppings.com/malls-centres/victoria'
+
+        #create a datafram to store the data
+        #headers = ["shopping_center", "address"]
+        #shopping_centers = pd.DataFrame(columns = headers)
+        shopping_center = []
+        addresses = []
+        page = requests.get(home_url)
+        soup = BeautifulSoup(page.text, 'lxml')
+            
+        #for each page find the table
+        table = soup.find('ul',  attrs={'class': 'malls-list'})
+            
+        # Create a for loop to scrap each row from the table
+        for j in table.find_all('li')[0:]:
+            name = j.find('h3').text
+            address = j.find('p').text
+            # length = len(shopping_centers)
+            shopping_center.append(name)
+            addresses.append(address)
+
+        shopping_centers = pd.DataFrame()
+  
+        # append columns to an empty DataFrame
+        shopping_centers['Name'] = shopping_center
+        
+        shopping_centers['Adress'] = addresses
+
+        filename = 'shopping_center.csv'
+        output_dir_full = f'{output_dir}{filename}'
+        shopping_centers.to_csv(output_dir_full)
+
+        return ()
+
 
 
     @staticmethod
@@ -356,13 +398,13 @@ class download:
 
 
 
-        download.property_and_elector()
-        download.PTV()
-        download.hospital()
-        download.emergency_service()
-        download.public_service()
-        download.care_facility()
-        download.income()
-        # download.school()
-        download.population_growth()
-        download.criminal()
+        # download.property_and_elector()
+        # download.PTV()
+        # download.hospital()
+        # download.emergency_service()
+        # download.public_service()
+        # download.care_facility()
+        # download.income()
+        # download.population_growth()
+        # download.criminal()
+        # download.shopping_center()
