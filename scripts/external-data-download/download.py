@@ -305,6 +305,10 @@ class download:
         return ()
 
 
+
+
+
+
     @staticmethod
     def download_all():
         """
@@ -313,12 +317,12 @@ class download:
 
 
 
-        # download.property_and_elector()
-        # download.PTV()
-        # download.hospital()
-        # download.emergency_service()
-        # download.public_service()
-        # download.care_facility()
-        # download.income()
+        download.property_and_elector()
+        download.PTV()
+        download.hospital()
+        download.emergency_service()
+        download.public_service()
+        download.care_facility()
+        download.income()
         download.school()
-        # download.population_growth()
+        download.population_growth()
