@@ -127,11 +127,138 @@ class download:
 
             return ()
 
-
+    @staticmethod
+    def school_locations():
+        """
+        
+        """
+        from urllib.request import urlretrieve
+        urlretrieve("https://www.education.vic.gov.au/Documents/about/research/datavic/dv331_schoollocations2022.csv", 
+                    "../../data/external-raw-data/school locations.csv")
     
 
+    @staticmethod
+    def school_remove_selective():
+        """
+        
+        """
+        df_school = pd.read_csv("../../data/external-raw-data/school locations.csv", encoding='cp1252')
+        df_school[(df_school.School_Name == 'Melbourne High School') |
+                                     (df_school.School_Name == "The Mac.Robertson Girls' High School") |
+                                     (df_school.School_Name == "Nossal High School")  |
+                                     (df_school.School_Name == "Suzanne Cory High School")]
 
-    
+        df_school = df_school.drop(df_school[(df_school.School_Name == 'Melbourne High School') |
+                                     (df_school.School_Name == "The Mac.Robertson Girls' High School") |
+                                     (df_school.School_Name == "Nossal High School")  |
+                                     (df_school.School_Name == "Suzanne Cory High School") ].index)
+
+        filename = 'school_remove_selective.csv'
+        output_dir_full = f'{external_dir}{filename}'
+        df_school.to_csv(output_dir_full)
+
+
+    @staticmethod
+    def school_rank():
+        """
+        
+        """
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+
+        # some codes are from: 
+        # https://medium.com/analytics-vidhya/how-to-scrape-a-table-from-website-using-python-ce90d0cfb607
+
+        # home url of top scores
+        home_url = 'https://www.topscores.co/Vic/vce-school-rank-median-vce/2021/'
+
+        # 25 of 654 entries are shown per page, so in total we have 27 pages of table contains all the schools
+        page_numbers = list(range(28))[1:28]
+
+        #create a datafram to store the data
+        headers = ["rank", "School", "Location", "MedianVCE Score", "VCE40+%"]
+        school_rank = pd.DataFrame(columns = headers)
+
+
+        count = 0
+        for page in page_numbers:
+            print(page)
+            
+            # first page has a different url with other pages so we do this seperately
+            if count == 0:
+                url = home_url      
+            else:
+                # get url for 2 to 27 pages
+                url = home_url + "?pageno=" + str(page)
+            
+        
+            page = requests.get(url)
+            soup = BeautifulSoup(page.text, 'lxml')
+            
+            #for each page find the table
+            table = soup.find('table', attrs={'class': 'reportTable'})
+            
+            # Create a for loop to scrap each row from the table
+            for j in table.find_all('tr')[1:]:
+                row_data = j.find_all('td')
+                row = [i.text for i in row_data]
+                
+                # to filter out the ad windows
+                if row[0].isdigit():
+                    length = len(school_rank)
+                    school_rank.loc[length] = row
+                # skip the ad windows
+                else:
+                    continue
+            
+            
+            count = count + 1
+        
+        filename = 'school_rank.csv'
+        output_dir_full = f'{external_dir}{filename}'
+        school_rank.to_csv(output_dir_full)
+
+
+    @staticmethod
+    def primary_school_rank():
+        """
+        
+        """
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # some codes are from: 
+        # https://medium.com/analytics-vidhya/how-to-scrape-a-table-from-website-using-python-ce90d0cfb607
+
+        # home url of top scores
+        home_url = 'https://clueylearning.com.au/en/school-rankings/top-primary-schools/vic/'
+
+        #create a datafram to store the data
+        headers = ["rank", "School name", "Search Volume", "Keyword Searched", "School Type", "Location", "Postcode", "State", "My School URL"]
+        primary_school_rank = pd.DataFrame(columns = headers)
+
+        
+        page = requests.get(home_url)
+        soup = BeautifulSoup(page.text, 'lxml')
+            
+        #for each page find the table
+        table = soup.find('tbody')
+            
+        # Create a for loop to scrap each row from the table
+        for j in table.find_all('tr')[0:]:
+            row_data = j.find_all('td')
+            row = [i.text for i in row_data]
+                
+            # to filter out the ad windows
+            if row[0].isdigit():
+                length = len(primary_school_rank)
+                primary_school_rank.loc[length] = row
+            # skip the ad windows
+            else:
+                continue
+
+        filename = 'primary_school_rank.csv'
+        output_dir_full = f'{external_dir}{filename}'
+        primary_school_rank.to_csv(output_dir_full)
+
+
 
     @staticmethod
     def download_all():
@@ -140,5 +267,8 @@ class download:
         """
 
 
-
         download.total_income()
+        download.school_locations()
+        download.school_remove_selective()
+        download.school_rank()
+        download.primary_school_rank()

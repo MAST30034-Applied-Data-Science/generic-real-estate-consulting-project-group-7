@@ -391,20 +391,73 @@ class download:
 
 
     @staticmethod
+    def school_rank_more_info():
+        """
+        
+        """
+
+        # read the csv file of all schools and the school rank
+        df_school = pd.read_csv("../../data/external-raw-data/school_remove_selective.csv", encoding='cp1252')
+        df_school_rank = pd.read_csv('../../data/external-raw-data/school_rank.csv')     
+
+        # rename the column in school rank so that they have a same column to join on
+        df_school_rank.rename(columns={'School': 'School_Name'}, inplace=True)
+        pd.merge(df_school_rank, df_school, on='School_Name', how='inner')
+
+        # select the useful columns
+        school_rank_more_info = pd.merge(df_school_rank, df_school, 
+                        on='School_Name', how='inner')[['rank', 'School_Name', 'Location', 'MedianVCE Score', 
+                                                        'VCE40+%', 'Education_Sector', 'School_Type', 
+                                                        'Postal_Postcode','X', 'Y']]
+
+        filename = 'school_rank_more_info.csv'
+        output_dir_full = f'{output_dir}{filename}'
+        school_rank_more_info.to_csv(output_dir_full)
+
+        return ()
+
+
+    @staticmethod
+    def primary_school_rank_more_info():
+        """
+        
+        """
+        df_school = pd.read_csv("../../data/external-raw-data/school_remove_selective.csv", encoding='cp1252')
+        df_primary_school_rank = pd.read_csv('../../data/external-raw-data/primary_school_rank.csv')\
+        
+        # rename the column in school rank so that they have a same column to join on
+        df_primary_school_rank.rename(columns={'School name': 'School_Name'}, inplace=True)
+        df_primary_school_rank_more_info = pd.merge(df_primary_school_rank, df_school, on='School_Name', how='inner')
+
+        df_primary_school_rank_more_info = df_primary_school_rank_more_info.drop_duplicates()
+
+        # select the useful columns
+        df_primary_school_rank_more_info = df_primary_school_rank_more_info[['rank', 'School_Name', 'Location', 
+                                                                             'Education_Sector', 'School_Type', 
+                                                                             'Postal_Postcode','X', 'Y']]
+
+        filename = 'primary_school_rank_more_info.csv'
+        output_dir_full = f'{output_dir}{filename}'
+        df_primary_school_rank_more_info.to_csv(output_dir_full)
+
+        return ()
+
+    @staticmethod
     def download_all():
         """
         
         """
 
 
-
-        # download.property_and_elector()
-        # download.PTV()
-        # download.hospital()
-        # download.emergency_service()
-        # download.public_service()
-        # download.care_facility()
-        # download.income()
-        # download.population_growth()
-        # download.criminal()
-        # download.shopping_center()
+        download.property_and_elector()
+        download.PTV()
+        download.hospital()
+        download.emergency_service()
+        download.public_service()
+        download.care_facility()
+        download.income()
+        download.population_growth()
+        download.criminal()
+        download.shopping_center()
+        download.school_rank_more_info()
+        download.primary_school_rank_more_info()
