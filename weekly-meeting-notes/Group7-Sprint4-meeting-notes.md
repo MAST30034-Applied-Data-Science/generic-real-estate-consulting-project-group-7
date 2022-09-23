@@ -15,6 +15,8 @@
       - [***All external dataset with features***](#all-external-dataset-with-features)
       - [***Modelling (prediction and analysis)***](#modelling-prediction-and-analysis)
       - [***Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.***](#additionally-prepare-a-summary-notebook-3-5-minutes-max-including-current-findings-and-any-additional-insights-so-far-this-task-should-assist-in-helping-groups-formulate-their-answers-to-the-3-big-questions)
+  - [Expected Meeting Time: Sunday](#expected-meeting-time-sunday)
+    - [Agenda:](#agenda-2)
    
 ## Meeting Time: 2:00pm - 3:30pm, 16/9/2022, Friday
 **Members Attend:**
@@ -130,3 +132,16 @@
 - [ ] focusing on big 3 questions
 
 #### ***Additionally, prepare a summary notebook (3-5 minutes max) including current findings and any additional insights so far. This task should assist in helping groups formulate their answers to the 3 big questions.***
+
+
+
+## Expected Meeting Time: Sunday
+
+### Agenda:
+1. domain preprocessing should be done
+2. external dataset should be done
+3. ors problem should be done
+4. forecasting the rental properties for the next 3 years by suburb or any other suitable granularity should be 50% done
+
+
+**We are planning to have group meeting during Sunday, the meeting notes will be complete and show on Sprint 5 Meeting Checkpoint**
