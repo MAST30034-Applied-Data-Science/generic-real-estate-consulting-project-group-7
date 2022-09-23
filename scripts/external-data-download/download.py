@@ -289,7 +289,6 @@ class download:
         
         """
         xls = pd.ExcelFile('../../data/external-raw-data/population.xlsx')
-
         df_population = xls.parse('Population', skiprows=11, index_col=None, na_values=['NA'])
         # delect useless row
         df_population = df_population.drop(labels=[0,548,549,550,551], axis=0)
@@ -305,6 +304,46 @@ class download:
         return ()
 
 
+    def criminal():
+        """
+        
+        """
+        xls = pd.ExcelFile('../../data/external-raw-data/crime_by_LGA.xlsx')
+        df = pd.read_excel(xls, 'Table 01')
+        xls_convert = pd.ExcelFile('../../data/external-raw-data/lga_postcode_table.xlsx')
+        df_convert = pd.read_excel(xls_convert, 'lga_postcode_mappings')
+
+        # Preprocessing for crime data file
+        # Change the Local Government Area column of crime data to UPPER case for merge
+        df['Local Government Area'] = df['Local Government Area'].str.upper()
+        # Only remain the 2022 data
+        df = df[df['Year'] == 2022]
+     # Only remain the useful column which are Local Government Area, Incidents Recorded and Rate per 100,000 population
+        df_select = df[["Local Government Area", "Incidents Recorded","Rate per 100,000 population"]] 
+        
+        # Only remain the data of Victoria
+        df_convert = df_convert[df_convert['State'] =='Victoria']
+        df_convert = df_convert[df_convert['Postcode']< 4000]
+        df_convert = df_convert[df_convert['Postcode']>= 3000]
+        # Change the LGA region column of convertion file to UPPER case for merge
+        df_convert['LGA region'] = df_convert['LGA region'].str.upper().str.strip()
+
+        # make sure Local Government Area and LGA region are the same data type
+        df_select.loc[:,"Local Government Area"] = df_select["Local Government Area"].astype(str).str.strip()
+        df_convert.loc[:,"LGA region"] = df_convert["LGA region"].astype(str).str.strip()
+
+        # inner merge by Local Government Area and LGA region
+        df = df_convert.merge(df_select, left_on='LGA region', right_on='Local Government Area', how='inner')
+
+        # Only remain the postcode and criminal rate columns
+        df = df[["Postcode", "Rate per 100,000 population"]]
+        
+
+        filename = 'criminal.csv'
+        output_dir_full = f'{output_dir}{filename}'
+        df.to_csv(output_dir_full)
+
+        return ()
 
 
 
@@ -324,5 +363,6 @@ class download:
         download.public_service()
         download.care_facility()
         download.income()
-        download.school()
+        # download.school()
         download.population_growth()
+        download.criminal()
