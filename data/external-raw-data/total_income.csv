@@ -1,0 +1,666 @@
+,Rank,Suburb,Value
+0,1,Canterbury,$2352
+1,2,Park Orchards,$2329
+2,3,Wonga Park,$2221
+3,4,Brighton,$2200
+4,5,Camberwell,$2122
+5,6,Albert Park,$2103
+6,6,Middle Park,$2103
+7,7,North Warrandyte,$2074
+8,7,Warrandyte,$2074
+9,8,Kooyong,$2047
+10,8,Malvern,$2047
+11,9,Kew,$2022
+12,10,Port Melbourne,$1997
+13,11,East Melbourne,$1989
+14,12,Toorak,$1977
+15,13,Glen Iris,$1965
+16,14,Mont Albert,$1961
+17,14,Surrey Hills,$1961
+18,15,Narre Warren East,$1956
+19,15,Narre Warren North,$1956
+20,16,Eltham,$1923
+21,16,Eltham North,$1923
+22,16,Research,$1923
+23,17,Diamond Creek,$1860
+24,18,Beaumaris,$1845
+25,18,Black Rock,$1845
+26,19,Southbank,$1838
+27,20,Sandringham,$1836
+28,21,Hawthorn East,$1833
+29,22,Kew East,$1807
+30,23,Abbotsford,$1797
+31,23,Brighton East,$1797
+32,24,Templestowe,$1789
+33,25,Balwyn North,$1787
+34,26,Clifton Hill,$1782
+35,26,Fitzroy North,$1782
+36,27,Carlton North,$1740
+37,27,Princes Hill,$1740
+38,28,Caulfield North,$1735
+39,29,Burnley,$1731
+40,29,Cremorne,$1731
+41,29,Richmond,$1731
+42,30,Greenvale,$1730
+43,31,Elwood,$1715
+44,32,Armadale,$1713
+45,33,Ivanhoe,$1709
+46,33,Ivanhoe East,$1709
+47,34,Rowville,$1699
+48,34,Williamstown,$1699
+49,34,Williamstown North,$1699
+50,35,Mount Eliza,$1695
+51,36,South Yarra,$1694
+52,37,Bullengarook,$1679
+53,37,Gisborne,$1679
+54,37,Gisborne South,$1679
+55,38,South Melbourne,$1670
+56,39,Caulfield East,$1663
+57,39,Malvern East,$1663
+58,40,Hampton,$1653
+59,40,Hampton East,$1653
+60,41,Riddells Creek,$1637
+61,42,Essendon North,$1634
+62,42,Strathmore,$1634
+63,42,Strathmore Heights,$1634
+64,43,Hawthorn,$1627
+65,44,Newport,$1626
+66,44,South Kingsville,$1626
+67,44,Spotswood,$1626
+68,45,Donvale,$1614
+69,46,Moonee Ponds,$1611
+70,47,Arthurs Creek,$1589
+71,47,Cottles Bridge,$1589
+72,47,Hurstbridge,$1589
+73,47,Nutfield,$1589
+74,47,Strathewen,$1589
+75,48,Lower Plenty,$1584
+76,49,Yarraville,$1583
+77,50,South Morang,$1576
+78,51,Aberfeldie,$1571
+79,51,Essendon,$1571
+80,51,Essendon West,$1571
+81,52,Berwick,$1566
+82,52,Harkaway,$1566
+83,53,Balwyn,$1563
+84,53,Northcote,$1563
+85,54,Prahran,$1560
+86,54,Prahran East,$1560
+87,54,Windsor,$1560
+88,55,Eaglemont,$1551
+89,55,Heidelberg,$1551
+90,55,Rosanna,$1551
+91,55,Viewbank,$1551
+92,56,Caulfield,$1547
+93,56,Caulfield South,$1547
+94,57,Keilor,$1541
+95,58,Alphington,$1538
+96,58,Bentleigh,$1538
+97,58,Fairfield,$1538
+98,58,McKinnon,$1538
+99,58,Ormond,$1538
+100,59,Upwey,$1537
+101,60,Briar Hill,$1524
+102,60,Greensborough,$1524
+103,60,St Helena,$1524
+104,61,Ascot Vale,$1512
+105,61,Maribyrnong,$1512
+106,61,Travancore,$1512
+107,62,Keilor Downs,$1505
+108,62,Keilor Lodge,$1505
+109,62,Taylors Lakes,$1505
+110,63,Elsternwick,$1497
+111,63,Gardenvale,$1497
+112,63,Ripponlea,$1497
+113,64,Aspendale,$1492
+114,64,Aspendale Gardens,$1492
+115,64,Mordialloc,$1492
+116,64,Parkdale,$1492
+117,64,Waterways,$1492
+118,65,Delahey,$1491
+119,65,Hillside,$1491
+120,65,Sydenham,$1491
+121,65,Taylors Hill,$1491
+122,66,St Kilda,$1488
+123,66,St Kilda West,$1488
+124,67,Scoresby,$1486
+125,68,Fitzroy,$1483
+126,69,Parkville,$1480
+127,70,Derrimut,$1470
+128,70,Point Cook,$1470
+129,70,Sanctuary Lakes,$1470
+130,70,Werribee,$1470
+131,70,Werribee South,$1470
+132,71,Ashwood,$1469
+133,72,Brunswick East,$1468
+134,73,Wantirna,$1463
+135,73,Wantirna South,$1463
+136,74,Vermont,$1459
+137,74,Vermont South,$1459
+138,75,MacLeod,$1458
+139,75,Yallambie,$1458
+140,76,Montmorency,$1457
+141,77,The Basin,$1455
+142,78,Belgrave,$1452
+143,78,Belgrave Heights,$1452
+144,78,Belgrave South,$1452
+145,78,Tecoma,$1452
+146,79,Balaclava,$1449
+147,79,St Kilda East,$1449
+148,80,Newham,$1446
+149,80,Woodend,$1446
+150,81,Bellbrae,$1440
+151,81,Jan Juc,$1440
+152,81,Torquay,$1440
+153,82,Sunbury,$1438
+154,82,Wildwood,$1438
+155,83,Brunswick,$1433
+156,83,Brunswick North,$1433
+157,83,Coburg East,$1433
+158,84,Avonsleigh,$1430
+159,84,Clematis,$1430
+160,84,Emerald,$1430
+161,84,MacClesfield,$1430
+162,85,Templestowe Lower,$1429
+163,86,Mitcham,$1424
+164,86,Narre Warren,$1424
+165,86,Narre Warren South,$1424
+166,87,Burnside,$1423
+167,87,Burnside Heights,$1423
+168,87,Cairnlea,$1423
+169,87,Caroline Springs,$1423
+170,87,Deer Park,$1423
+171,88,Chirnside Park,$1418
+172,88,Glen Waverley,$1418
+173,88,Wheelers Hill,$1418
+174,89,Mount Evelyn,$1417
+175,90,Mount Martha,$1415
+176,91,Darraweit Guim,$1412
+177,91,Hidden Valley,$1412
+178,91,Wallan,$1412
+179,92,Baranduda,$1407
+180,93,Bentleigh East,$1406
+181,94,Hoppers Crossing,$1402
+182,94,Tarneit,$1402
+183,94,Truganina,$1402
+184,95,Flemington,$1401
+185,95,Kensington,$1401
+186,95,Romsey,$1401
+187,96,Ringwood,$1393
+188,96,Ringwood North,$1393
+189,96,Warrandyte South,$1393
+190,96,Warranwood,$1393
+191,97,Ferntree Gully,$1392
+192,97,Lara,$1392
+193,97,Lysterfield,$1392
+194,97,Lysterfield South,$1392
+195,97,Upper Ferntree Gully,$1392
+196,98,Montrose,$1391
+197,99,Epsom,$1390
+198,99,Huntly,$1390
+199,99,Junortoun,$1390
+200,99,Maiden Gully,$1390
+201,99,Newbridge,$1390
+202,99,Strathfieldsaye,$1390
+203,100,Attwood,$1388
+204,100,Westmeadows,$1388
+205,101,Blackburn,$1387
+206,101,Blackburn North,$1387
+207,101,Blackburn South,$1387
+208,102,Langwarrin,$1385
+209,103,Highett,$1384
+210,104,Mount Waverley,$1369
+211,105,Coldstream,$1368
+212,105,Gruyere,$1368
+213,105,Mill Park,$1368
+214,106,Kialla,$1360
+215,106,Mooroolbark,$1360
+216,107,Doncaster East,$1356
+217,107,Mount Cottrell,$1356
+218,107,Wyndham Vale,$1356
+219,108,Craigieburn,$1349
+220,108,Kalkallo,$1349
+221,108,Mickleham,$1349
+222,108,Roxburgh Park,$1349
+223,109,Mulgrave,$1348
+224,110,Hughesdale,$1340
+225,110,Huntingdale,$1340
+226,110,Oakleigh,$1340
+227,110,Oakleigh East,$1340
+228,111,Anakie,$1334
+229,111,Batesford,$1334
+230,111,Ceres,$1334
+231,111,Fyansford,$1334
+232,111,Lovely Banks,$1334
+233,111,Moolap,$1334
+234,111,Moorabool,$1334
+235,111,Wallington,$1334
+236,112,Box Hill North,$1330
+237,112,Mont Albert North,$1330
+238,113,Endeavour Hills,$1322
+239,114,Tyabb,$1317
+240,115,Pearcedale,$1315
+241,115,Somerville,$1315
+242,116,Christmas Hills,$1314
+243,116,Dixons Creek,$1314
+244,116,Steels Creek,$1314
+245,116,Tarrawarra,$1314
+246,116,Yarra Glen,$1314
+247,117,Knoxfield,$1310
+248,118,Carrum,$1305
+249,118,Patterson Lakes,$1305
+250,119,Cockatoo,$1303
+251,119,Nangana,$1303
+252,120,Eden Park,$1301
+253,120,Humevale,$1301
+254,120,Kinglake Central,$1301
+255,120,Kinglake West,$1301
+256,120,Pheasant Creek,$1301
+257,120,Whittlesea,$1301
+258,121,Watsonia,$1300
+259,121,Watsonia North,$1300
+260,122,Cannons Creek,$1297
+261,122,Cranbourne,$1297
+262,122,Cranbourne East,$1297
+263,122,Cranbourne North,$1297
+264,122,Cranbourne South,$1297
+265,122,Cranbourne West,$1297
+266,122,Devon Meadows,$1297
+267,122,Heathmont,$1297
+268,122,Junction Village,$1297
+269,122,Ringwood East,$1297
+270,122,Sandhurst,$1297
+271,122,Skye,$1297
+272,123,Moorabbin,$1294
+273,124,Bittern,$1292
+274,125,Mentone,$1288
+275,126,Carnegie,$1287
+276,126,Glen Huntly,$1287
+277,126,Murrumbeena,$1287
+278,127,Geelong,$1286
+279,127,Newtown,$1286
+280,127,South Geelong,$1286
+281,128,Lilydale,$1284
+282,129,Epping,$1283
+283,129,Pascoe Vale,$1283
+284,129,Pascoe Vale South,$1283
+285,130,Collingwood,$1278
+286,131,Thornbury,$1275
+287,132,Coburg,$1268
+288,132,Coburg North,$1268
+289,133,Croydon,$1267
+290,133,Croydon Hills,$1267
+291,133,Croydon North,$1267
+292,133,Croydon South,$1267
+293,134,Keysborough,$1253
+294,135,Doncaster,$1242
+295,136,Pakenham,$1237
+296,136,Pakenham Upper,$1237
+297,137,Chadstone,$1234
+298,138,Cheltenham,$1233
+299,139,Brunswick West,$1232
+300,140,Kilmore,$1230
+301,140,North Melbourne,$1230
+302,141,Addington,$1227
+303,141,Bungaree,$1227
+304,141,Burrumbeet,$1227
+305,141,Cardigan,$1227
+306,141,Cardigan Village,$1227
+307,141,Dereel,$1227
+308,141,Durham Lead,$1227
+309,141,Enfield,$1227
+310,141,Garibaldi,$1227
+311,141,Invermay,$1227
+312,141,Lal Lal,$1227
+313,141,Learmonth,$1227
+314,141,Magpie,$1227
+315,141,Miners Rest,$1227
+316,141,Mitchell Park,$1227
+317,141,Mollongghip,$1227
+318,141,Mount Rowan,$1227
+319,141,Navigators,$1227
+320,141,Sulky,$1227
+321,141,Wallace,$1227
+322,141,Warrenheip,$1227
+323,141,Waubra,$1227
+324,141,Yendon,$1227
+325,142,Keilor East,$1226
+326,143,Bulleen,$1225
+327,144,Baxter,$1223
+328,144,Langwarrin South,$1223
+329,145,Altona Meadows,$1221
+330,145,Laverton,$1221
+331,145,Seabrook,$1221
+332,146,Bacchus Marsh,$1220
+333,146,Balliang,$1220
+334,146,Coimadai,$1220
+335,146,Darley,$1220
+336,146,Hopetoun Park,$1220
+337,146,Long Forest,$1220
+338,146,Maddingley,$1220
+339,146,Merrimu,$1220
+340,146,Parwan,$1220
+341,146,Rowsley,$1220
+342,147,Hoddles Creek,$1219
+343,147,Launching Place,$1219
+344,147,Seville,$1219
+345,147,Seville East,$1219
+346,147,Wandin East,$1219
+347,147,Wandin North,$1219
+348,147,Woori Yallock,$1219
+349,147,Yellingbo,$1219
+350,148,Kilsyth,$1211
+351,148,Kilsyth South,$1211
+352,149,Airport West,$1204
+353,149,Keilor Park,$1204
+354,149,Niddrie,$1204
+355,150,Forest Hill,$1202
+356,150,Nichols Point,$1202
+357,150,Nunawading,$1202
+358,151,Ocean Grove,$1197
+359,152,Leopold,$1191
+360,153,McKenzie Creek,$1190
+361,154,Bayswater,$1186
+362,154,Bayswater North,$1186
+363,154,Traralgon,$1186
+364,155,Carrum Downs,$1184
+365,156,Belmont,$1181
+366,156,Footscray,$1181
+367,156,Freshwater Creek,$1181
+368,156,Grovedale,$1181
+369,156,Highton,$1181
+370,156,Marshall,$1181
+371,156,Mount Duneed,$1181
+372,156,Seddon,$1181
+373,156,Wandana Heights,$1181
+374,156,Waurn Ponds,$1181
+375,157,Bonbeach,$1179
+376,157,Chelsea,$1179
+377,157,Chelsea Heights,$1179
+378,157,Edithvale,$1179
+379,158,Burwood East,$1174
+380,159,Bundoora,$1172
+381,159,Kingsbury,$1172
+382,160,Monbulk,$1171
+383,161,Kurunjang,$1167
+384,161,Melton,$1167
+385,161,Melton West,$1167
+386,161,Toolern Vale,$1167
+387,162,Hampton Park,$1165
+388,163,Boronia,$1162
+389,163,Brooklyn,$1162
+390,163,Kingsville,$1162
+391,163,Maidstone,$1162
+392,163,West Footscray,$1162
+393,164,Altona,$1160
+394,164,Seaholme,$1160
+395,165,Hallam,$1156
+396,166,Dingley Village,$1155
+397,166,Preston,$1155
+398,166,Preston West,$1155
+399,166,Regent West,$1155
+400,166,Springvale South,$1155
+401,167,Gladstone Park,$1150
+402,167,Gowanbrae,$1150
+403,167,Tullamarine,$1150
+404,168,Box Hill,$1132
+405,168,Box Hill South,$1132
+406,169,Clarinda,$1116
+407,169,Clayton North,$1116
+408,169,Clayton South,$1116
+409,170,Bayles,$1115
+410,170,Dalmore,$1115
+411,170,Heath Hill,$1115
+412,170,Koo Wee Rup,$1115
+413,171,Avondale Heights,$1100
+414,171,Burwood,$1100
+415,172,Brookfield,$1096
+416,172,Eynesbury,$1096
+417,172,Melton South,$1096
+418,173,Timboon,$1076
+419,174,Haddon,$1064
+420,174,Ross Creek,$1064
+421,174,Scarsdale,$1064
+422,174,Smythes Creek,$1064
+423,174,Smythesdale,$1064
+424,174,Snake Valley,$1064
+425,175,Geelong West,$1062
+426,175,Herne Hill,$1062
+427,175,Manifold Heights,$1062
+428,176,Barongarook,$1051
+429,177,Broadford,$1047
+430,177,Clonbinane,$1047
+431,177,Flowerdale,$1047
+432,177,Strath Creek,$1047
+433,178,Trafalgar,$1046
+434,179,Alfredton,$1045
+435,179,Ballarat,$1045
+436,179,Ballarat Central,$1045
+437,179,Ballarat East,$1045
+438,179,Ballarat North,$1045
+439,179,Black Hill,$1045
+440,179,Brown Hill,$1045
+441,179,Canadian,$1045
+442,179,Golden Point,$1045
+443,179,Invermay Park,$1045
+444,179,Lake Wendouree,$1045
+445,179,Mount Clear,$1045
+446,179,Mount Helen,$1045
+447,179,Mount Pleasant,$1045
+448,179,Nerrina,$1045
+449,179,Newington,$1045
+450,179,Redan,$1045
+451,179,Soldiers Hill,$1045
+452,180,Frankston,$1043
+453,180,Frankston South,$1043
+454,181,Clifton Springs,$1035
+455,181,Curlewis,$1035
+456,181,Drysdale,$1035
+457,181,Mannerim,$1035
+458,182,Chum Creek,$1026
+459,182,Healesville,$1026
+460,182,Mornington,$1026
+461,183,Kyneton,$1022
+462,183,Lauriston,$1022
+463,183,Pipers Creek,$1022
+464,183,Redesdale,$1022
+465,183,Wodonga,$1022
+466,184,Irymple,$1012
+467,184,Rockbank,$1012
+468,185,Point Lonsdale,$1010
+469,185,Queenscliff,$1010
+470,186,Seaford,$1006
+471,187,Warrnambool,$1005
+472,188,Glenroy,$1004
+473,188,Hadfield,$1004
+474,188,Oak Park,$1004
+475,189,Cobden,$998
+476,190,Melbourne,$994
+477,191,Warragul,$993
+478,192,Drouin,$991
+479,193,Leongatha,$984
+480,194,Reservoir,$972
+481,195,Bendigo,$968
+482,195,East Bendigo,$968
+483,195,Flora Hill,$968
+484,195,Kennington,$968
+485,195,North Bendigo,$968
+486,195,Quarry Hill,$968
+487,195,Spring Gully,$968
+488,195,Strathdale,$968
+489,195,White Hills,$968
+490,196,Tatura,$967
+491,197,Inverloch,$965
+492,198,Clayton,$962
+493,198,Notting Hill,$962
+494,199,Bolwarra,$958
+495,199,Cape Bridgewater,$958
+496,199,Dutton Way,$958
+497,199,Portland,$958
+498,199,Portland West,$958
+499,200,Beechworth,$957
+500,200,Bell Park,$957
+501,200,Bell Post Hill,$957
+502,200,Drumcondra,$957
+503,200,Hamlyn Heights,$957
+504,200,North Geelong,$957
+505,200,Rippleside,$957
+506,201,Sale,$956
+507,202,Echuca,$944
+508,202,Echuca West,$944
+509,203,Bellfield,$938
+510,203,Heidelberg Heights,$938
+511,203,Heidelberg West,$938
+512,203,Regent,$938
+513,204,Albion,$929
+514,204,Sunshine,$929
+515,204,Sunshine North,$929
+516,204,Sunshine West,$929
+517,205,Noble Park,$927
+518,205,Noble Park North,$927
+519,206,Shepparton,$925
+520,207,Rochester,$924
+521,208,Campbells Creek,$922
+522,208,Chewton,$922
+523,208,Yapeen,$922
+524,209,Mansfield,$920
+525,210,Lalor,$919
+526,211,Altona East,$910
+527,211,Altona North,$910
+528,212,Albanvale,$907
+529,212,Kealba,$907
+530,212,Kings Park,$907
+531,212,St Albans,$907
+532,212,St Albans East,$907
+533,213,Arthurs Seat,$906
+534,213,Dromana,$906
+535,213,Safety Beach,$906
+536,214,Churchill,$905
+537,214,Colac,$905
+538,214,Elliminyt,$905
+539,215,Hamilton,$904
+540,215,Horsham,$904
+541,216,Golden Square,$901
+542,216,Kangaroo Flat,$901
+543,217,Briagolong,$900
+544,217,Coongulla,$900
+545,217,Maffra,$900
+546,217,Thomastown,$900
+547,218,Bangholme,$899
+548,218,Dandenong,$899
+549,218,Dandenong North,$899
+550,218,Dandenong South,$899
+551,219,Robinvale,$896
+552,220,Ardeer,$895
+553,221,Swan Hill,$894
+554,222,Breakwater,$889
+555,222,East Geelong,$889
+556,222,Halls Gap,$889
+557,222,Newcomb,$889
+558,222,St Albans Park,$889
+559,222,Thomson,$889
+560,222,Whittington,$889
+561,223,Nhill,$886
+562,224,Korumburra,$885
+563,225,Springvale,$884
+564,226,Alexandra,$874
+565,227,Bairnsdale,$873
+566,227,East Bairnsdale,$873
+567,228,Mooroopna,$871
+568,229,Coolaroo,$867
+569,229,Meadow Heights,$867
+570,230,Ararat,$865
+571,230,Fawkner,$865
+572,230,Hastings,$865
+573,230,Tuerong,$865
+574,231,Bullarto,$862
+575,231,Coomoora,$862
+576,231,Drummond,$862
+577,231,Eganstown,$862
+578,231,Glenlyon,$862
+579,231,Hepburn Springs,$862
+580,231,Korweinguboora,$862
+581,231,Lyonville,$862
+582,231,Yandoit,$862
+583,232,Cardross,$859
+584,232,Red Cliffs,$859
+585,233,Merbein,$855
+586,234,Camperdown,$854
+587,234,Mildura,$854
+588,235,Rye,$849
+589,235,St Andrews Beach,$849
+590,235,Tootgarook,$849
+591,236,Seymour,$848
+592,236,Trawool,$848
+593,237,Kyabram,$845
+594,237,Terang,$845
+595,238,Cobram,$835
+596,238,Delacombe,$835
+597,238,Sebastopol,$835
+598,238,Yarrawonga,$835
+599,239,Bright,$825
+600,239,Millgrove,$825
+601,239,Mount Hotham,$825
+602,239,Warburton,$825
+603,239,Wesburn,$825
+604,240,Cohuna,$823
+605,240,Stawell,$823
+606,241,Doveton,$819
+607,241,Eumemmerring,$819
+608,242,Cape Paterson,$814
+609,242,Euroa,$814
+610,242,Kilcunda,$814
+611,242,Wonthaggi,$814
+612,243,Cowes,$813
+613,243,Silverleaves,$813
+614,243,Smiths Beach,$813
+615,243,Sunderland Bay,$813
+616,243,Sunset Strip,$813
+617,243,Surf Beach,$813
+618,243,Ventnor,$813
+619,243,Wimbledon Heights,$813
+620,244,California Gully,$812
+621,244,Eaglehawk,$812
+622,245,Invergordon,$811
+623,245,Numurkah,$811
+624,246,Benalla,$793
+625,246,Hazelwood North,$793
+626,246,Morwell,$793
+627,247,Braybrook,$792
+628,247,Moe,$792
+629,247,Newborough,$792
+630,247,Yallourn North,$792
+631,248,Myrtleford,$791
+632,249,Campbellfield,$786
+633,250,Lake Gardens,$783
+634,250,Wendouree,$783
+635,251,Castlemaine,$777
+636,252,Boneo,$770
+637,252,Cape Schanck,$770
+638,252,Fingal,$770
+639,252,Rosebud,$770
+640,253,Indented Head,$763
+641,253,Portarlington,$763
+642,253,St Leonards,$763
+643,254,Broadmeadows,$762
+644,254,Dallas,$762
+645,254,Frankston North,$762
+646,254,Jacana,$762
+647,254,Lakes Entrance,$762
+648,255,Corio,$752
+649,255,Norlane,$752
+650,255,North Shore,$752
+651,256,Warracknabeal,$751
+652,257,Port Albert,$747
+653,257,Yarram,$747
+654,258,Kerang,$739
+655,259,Falls Creek,$732
+656,259,Mount Beauty,$732
+657,260,Marlo,$715
+658,260,Orbost,$715
+659,261,Moonambel,$713
+660,261,St Arnaud,$713
+661,262,Maryborough,$689
+662,263,Rosebud West,$641
+663,264,Carlton,$633
+664,264,Carlton South,$633

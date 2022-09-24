@@ -6,5 +6,23 @@
 The data will either be provided by an annoucement (downloadable via URL) or uploaded directly to the `raw` directory.
 
 ## Folder Specification
-1. save [domain website]('https://www.domain.com.au/') rent-house dataset
-    - `domain-website-data`
+1. Domain dataset
+   - save [domain website]('https://www.domain.com.au/') rent-house dataset
+        ```
+            |-- data
+                    |-- raw
+                            |-- domain-website-data
+        ```
+
+2. External dataset
+   - save pre-external dataset
+        ```
+            |-- data
+                    |-- external-raw-data
+        ```
+   - save external dataset
+        ```
+            |-- data
+                    |-- raw
+                            |-- external-data
+        ```

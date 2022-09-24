@@ -17,9 +17,9 @@ This process aims to find house rental data from [domain]('https://www.domain.co
 
 |-- data                              
 		|-- curated                        
-		        |-- external_curated_data          
+		        |-- domain-website-data          
 		|--raw   
-		        |-- external_curated_data   
+		        |-- domain-website-data   
 |-- duprecated
         |-- domain-website-scrape
 |-- notebookes  
