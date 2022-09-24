@@ -1,4 +1,5 @@
 #!usr/bin/python
+# import library
 from shapely.geometry import Point
 import geopandas as gpd
 from turtle import down
@@ -9,6 +10,7 @@ import re
 import unicodedata
 import json
 import os
+
 from bs4 import BeautifulSoup
 import requests
 import geopandas as gpd
@@ -19,18 +21,19 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import gdown
 
+# somr dirs
 postcode_df = gpd.read_file("../../data/external-raw-data/POSTCODE/POSTCODE_POLYGON.shp")
 sf = gpd.read_file("../../data/external-raw-data/VMFEAT/FOI_POINT.shp")
 VIC_FOI = sf.loc[sf['STATE']=='VIC']
 external_dir = '../../data/external-raw-data/'
 url_suburb_to_postcode = 'https://www.matthewproctor.com/Content/postcodes/australian_postcodes.csv'
 crime_url = 'https://files.crimestatistics.vic.gov.au/2022-06/Data_Tables_Criminal_Incidents_Visualisation_Year_Ending_March_2022.xlsx'
-
+OUTPUT_RELATIVE_PATH = "../../data/"
 
 
 def point_to_coor(df):
     """
-        
+    This function aims to use re to get latitude and longitude
     """
     df["lat"] = float(re.findall(r"\d+\.?\d*", df['geometry'][i])[0])
     df["lon"] = float(re.findall(r"\d+\.?\d*", df['geometry'][i])[1])
@@ -39,7 +42,7 @@ def point_to_coor(df):
 
 def add_postcode_column_from_geometry(df):
     """
-        
+    This function aims to add postcode with geometry output
     """
 
     lst = []
@@ -56,81 +59,108 @@ def add_postcode_column_from_geometry(df):
 
 class download:
     """
-    
+    This function aims to download some pre external download dataset which include:
+        total_income
+        school_locations
+        school_remove_selective
+        school_rank
+        primary_school_rank
+    The path with those download will give to '../data/external-raw-data'\
+        which help main external raw data downloading
     """
 
     def __init__(self):
         ...
+    
+    @staticmethod
+    def create_path():
+        """
+        This function aims to create path
+        """
+        path = ["external-raw-data", "curated/external-data", "raw/external-data"]
+        for target_dir in path:
+            if not os.path.exists(OUTPUT_RELATIVE_PATH + target_dir):
+                os.makedirs(OUTPUT_RELATIVE_PATH + target_dir)
+        print('Already Create Paths')
+
 
     @staticmethod
     def total_income():
-            """
-            
-            """
-            # A while loop to run all the pages of this website
-            i=0
+        """
+        This function aims to download total income data, which we found in website below
+        'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page='
+        we will preprocessing this part in download.py
+        RETURN:
+            csv file which contains total income data
+        """
+        # A while loop to run all the pages of this website
+        i=0
+        url = 'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page=' + str(i)
+        df = pd.DataFrame()
+        while True:
+            print(url)
+            # find all the table for each page find all the table
+            html_content = requests.get(url).text
+            soup = BeautifulSoup(html_content, "lxml")
+            table = soup.find_all("table")
+            print(len(table))
+            # The income table is the 8th table
+            income_table = table[7]
+            # the head will form our column names
+            body = income_table.find_all("tr")
+            # Head values (Column names) are the first items of the body list
+            head = body[0] # 0th item is the header row
+            body_rows = body[1:] # All other items becomes the rest of the rows
+
+            # Lets now iterate through the head HTML code and make list of clean headings
+
+            # Declare empty list to keep Columns names
+            headings = []
+            for item in head.find_all("td"): # loop through all th elements
+                # convert the th elements to text and strip "\n"
+                item = (item.text).rstrip("\n")
+                # append the clean column name to headings
+                headings.append(item)
+            print(headings)
+            #print(body_rows[0])
+            all_rows = [] # will be a list for list for all rows
+            for row_num in range(len(body_rows)): # A row at a time
+                row = [] # this will old entries for one row
+                for row_item in body_rows[row_num].find_all("td"): #loop through all row entries
+                    # row_item.text removes the tags from the entries
+                    # the following regex is to remove \xa0 and \n and comma from row_item.text
+                    # xa0 encodes the flag, \n is the newline and comma separates thousands in numbers
+                    aa = re.sub("(\xa0)|(\n)|,","",row_item.text)
+                    #append aa to row - note one row entry is being appended
+                    row.append(aa)
+                # append one row to all_rows
+                all_rows.append(row)
+            df_new = pd.DataFrame(data=all_rows,columns=headings)
+            # append the income data of this page to the dataframe
+            df = df.append(df_new, ignore_index=True)
+            # find the next page
+            i = i+1
+            page = requests.get(url)
+            if page.status_code != 200:
+                break
+            # This website only have 13 pages so when run to page 14, break
             url = 'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page=' + str(i)
-            df = pd.DataFrame()
-            while True:
-                print(url)
-                # find all the table for each page find all the table
-                html_content = requests.get(url).text
-                soup = BeautifulSoup(html_content, "lxml")
-                table = soup.find_all("table")
-                print(len(table))
-                # The income table is the 8th table
-                income_table = table[7]
-                # the head will form our column names
-                body = income_table.find_all("tr")
-                # Head values (Column names) are the first items of the body list
-                head = body[0] # 0th item is the header row
-                body_rows = body[1:] # All other items becomes the rest of the rows
+            if url == 'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page=14':
+                break
+        filename = 'total_income.csv'
+        output_dir_full = f'{external_dir}{filename}'
+        df.to_csv(output_dir_full)
 
-                # Lets now iterate through the head HTML code and make list of clean headings
-
-                # Declare empty list to keep Columns names
-                headings = []
-                for item in head.find_all("td"): # loop through all th elements
-                    # convert the th elements to text and strip "\n"
-                    item = (item.text).rstrip("\n")
-                    # append the clean column name to headings
-                    headings.append(item)
-                print(headings)
-                #print(body_rows[0])
-                all_rows = [] # will be a list for list for all rows
-                for row_num in range(len(body_rows)): # A row at a time
-                    row = [] # this will old entries for one row
-                    for row_item in body_rows[row_num].find_all("td"): #loop through all row entries
-                        # row_item.text removes the tags from the entries
-                        # the following regex is to remove \xa0 and \n and comma from row_item.text
-                        # xa0 encodes the flag, \n is the newline and comma separates thousands in numbers
-                        aa = re.sub("(\xa0)|(\n)|,","",row_item.text)
-                        #append aa to row - note one row entry is being appended
-                        row.append(aa)
-                    # append one row to all_rows
-                    all_rows.append(row)
-                df_new = pd.DataFrame(data=all_rows,columns=headings)
-                # append the income data of this page to the dataframe
-                df = df.append(df_new, ignore_index=True)
-                # find the next page
-                i = i+1
-                page = requests.get(url)
-                if page.status_code != 200:
-                    break
-                # This website only have 13 pages so when run to page 14, break
-                url = 'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page=' + str(i)
-                if url == 'http://house.speakingsame.com/suburbtop.php?sta=vic&cat=Median%20household%20income&name=Weekly%20income&page=14':
-                    break
-            filename = 'total_income.csv'
-            output_dir_full = f'{external_dir}{filename}'
-            df.to_csv(output_dir_full)
-
-            return ()
+        return ()
 
     @staticmethod
     def school_locations():
         """
-        
+        This function aims to download school location data, which we found in website below
+        'https://www.education.vic.gov.au/Documents/about/research/datavic/dv331_schoollocations2022.csv'
+        we will preprocessing this part in download.py
+        RETURN:
+            csv file which contains school location data
         """
         from urllib.request import urlretrieve
         urlretrieve("https://www.education.vic.gov.au/Documents/about/research/datavic/dv331_schoollocations2022.csv", 
@@ -140,7 +170,10 @@ class download:
     @staticmethod
     def school_remove_selective():
         """
-        
+        This function aims to download school location data, which we found in school location data
+        we will preprocessing this part in download.py
+        RETURN:
+            csv file which contains school data which remove selectives
         """
         df_school = pd.read_csv("../../data/external-raw-data/school locations.csv", encoding='cp1252')
         df_school[(df_school.School_Name == 'Melbourne High School') |
@@ -161,7 +194,11 @@ class download:
     @staticmethod
     def school_rank():
         """
-        
+        This function aims to download high school rank data, which we found in website below
+        'https://www.topscores.co/Vic/vce-school-rank-median-vce/2021/'
+        we will preprocessing this part in download.py
+        RETURN:
+            csv file which contains high school rank data
         """
         driver = webdriver.Chrome(ChromeDriverManager().install())
 
@@ -221,7 +258,11 @@ class download:
     @staticmethod
     def primary_school_rank():
         """
-        
+        This function aims to download primary school rank data, which we found in website below
+        'https://clueylearning.com.au/en/school-rankings/top-primary-schools/vic/'
+        we will preprocessing this part in download.py
+        RETURN:
+            csv file which contains primary school rank data
         """
         driver = webdriver.Chrome(ChromeDriverManager().install())
         # some codes are from: 
@@ -263,10 +304,11 @@ class download:
     @staticmethod
     def download_all():
         """
-        
+        This function aims to download all pre external data together.
         """
 
 
+        download.create_path()
         download.total_income()
         download.school_locations()
         download.school_remove_selective()
