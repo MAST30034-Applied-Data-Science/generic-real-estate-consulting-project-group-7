@@ -16,7 +16,7 @@ This project aims to ...
 | Student Name | Student ID | Email |
 | ---- | ---- | ---- |
 | QUZIHAN WU | 1078419 | quzihanw@student.unimelb.edu.au |
-| YINAN LI | 1173947 |  |
+| YINAN LI | 1173947 | yinan3@student.unimelb.edu.au | 
 | XINGYAO WANG | 1179108 |  |
 | ZIXUAN GUO | 1124606 |  |
 | ZONGCHAO XIE | 1174047 |  |
