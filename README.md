@@ -5,6 +5,7 @@
 - [Table of contents](#table-of-contents)
   - [Project Specification:](#project-specification)
   - [Group Information](#group-information)
+  - [Dependencies](#dependencies)
 
 ## Project Specification:
 
@@ -21,3 +22,11 @@ This project aims to ...
 | ZIXUAN GUO | 1124606 |  |
 | ZONGCHAO XIE | 1174047 |  |
 
+## Dependencies
+**[MANDATORY]**
+
+The project is conducted with `python` environment, please install required dependencies before executing any notebooks.
+```bash
+# install dependencies
+pip install -r requirements.txt
+```
