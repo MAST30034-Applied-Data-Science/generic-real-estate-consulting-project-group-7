@@ -137,7 +137,7 @@ class preprocessing:
         df = pd.read_csv('../../data/raw/external-data/criminal.csv')
         # we decide use median to group by by postcode
         df = df.groupby('Postcode')['Rate per 100,000 population'].median()
-        df.to_csv("../../data/raw/external-data/crimina_preprocessing.csv")
+        df.to_csv("../../data/raw/external-data/criminal_preprocessing.csv")
         return ()
 
 
