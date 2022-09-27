@@ -30,3 +30,15 @@ The project is conducted with `python` environment, please install required depe
 # install dependencies
 pip install -r requirements.txt
 ```
+
+**[Code Running Instructions]**
+
+To recreate the result, please run jupyter notebooks with the following order:
+1. Download required data
+
+2. Data Preprocessing
+
+3. Merge Results
+
+4. Analyze and Modelling
+
