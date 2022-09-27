@@ -6,6 +6,7 @@
   - [Project Specification:](#project-specification)
   - [Group Information](#group-information)
   - [Dependencies](#dependencies)
+  - [**Code Running Instructions**](#code-running-instructions)
 
 ## Project Specification:
 
@@ -31,13 +32,33 @@ The project is conducted with `python` environment, please install required depe
 pip install -r requirements.txt
 ```
 
-**[Code Running Instructions]**
+## **Code Running Instructions**
 
 To recreate the result, please run jupyter notebooks with the following order:
 1. Download required data
+```
+# download domain website data
+|-- notebooks
+  |-- domain-website-download
+    |-- download.ipynb 
 
+# download all external data
+|-- notebooks
+  |--external-data-download
+    |-- download.ipynb
+```
 2. Data Preprocessing
+```
+# preprocessing and join all external data as external-features
+|-- notebooks
+  |-- preprocessing
+    |-- join
 
+# preprocessing external-features
+|-- notebooks
+  |-- preprocessing
+    |-- external-features-preprocessing
+```
 3. Merge Results
 
 4. Analyze and Modelling
