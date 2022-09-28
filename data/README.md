@@ -26,3 +26,29 @@ The data will either be provided by an annoucement (downloadable via URL) or upl
                     |-- raw
                             |-- external-data
         ```
+
+3. preprocessing
+   - save openrouteserveice dataset
+        ```
+            |- data
+                    |- raw
+                            |- ors-data
+        ```
+   - save preprocessed domain website dataset
+        ```
+            |- data
+                    |- curated
+                            |- domain-website-data
+        ```
+   - save external feature dataset
+        ```
+            |- data
+                    |- curated
+                            |- external-data
+        ```
+   - save model dataset
+        ```
+            |- data
+                    |- curated
+                            |- model-data
+        ```

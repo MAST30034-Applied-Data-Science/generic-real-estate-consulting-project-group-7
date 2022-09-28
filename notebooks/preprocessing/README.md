@@ -11,16 +11,8 @@
 This processing aims to:
   - preprocessing and save external dataset
   - join all external dataset as our external-features
+  - preprocessing external features and internal features
+  - join, save as model-data
 
 ## Code Running Instructions
-```
-## preprocessing and join all external data as external-features
-|-- notebooks
-  |-- preprocessing
-    |-- join
-
-## preprocessing external-features
-|-- notebooks
-  |-- preprocessing
-    |-- external-features-preprocessing
-```
+`preprocessing.ipynb`
