@@ -14,13 +14,7 @@ This processing aims to:
 
 ## Code Running Instructions
 ```
-## preprocessing and join all external data as external-features
 |-- notebooks
   |-- preprocessing
-    |-- join
-
-## preprocessing external-features
-|-- notebooks
-  |-- preprocessing
-    |-- external-features-preprocessing
+    |-- preprocessing
 ```
