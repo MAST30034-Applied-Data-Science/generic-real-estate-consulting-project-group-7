@@ -53,7 +53,7 @@
 ### todo
   - model data need to preprocessing before modelling, we decide preprocess together, instead, modelling part will contains preprocessing
   - for modelling:
-    - YINAN will fit some pysparkG BTClassifiers
+    - YINAN will fit some pyspark GBTClassifiers
     - XINGYAO will fit random forest
     - ZIXUAN will fit linear regression
     - ZONGCHAO will fit some naive bayes classifiers
