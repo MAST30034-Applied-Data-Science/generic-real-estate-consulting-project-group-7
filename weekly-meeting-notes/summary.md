@@ -75,6 +75,8 @@
      - By checking pearson correlation, some features are dependent on each other
      - By checking permutation feature imoportance, find that some features are not important at all
      - model has high variance
+![Drag Racing](../plots/meeting_minutes/summary-nb-1.png)
+![Drag Racing](../plots/meeting_minutes/summary-nb-2.png)
 
 ### Pyspark - Gradient Boost Tree Regression
 ![Drag Racing](../plots/meeting_minutes/summary-gbt.png)
