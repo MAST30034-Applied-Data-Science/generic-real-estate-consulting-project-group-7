@@ -95,21 +95,20 @@
 ### Liveable (ideas)
    - According to https://auo.org.au/portal/metadata/urban-liveability-index/, the Liveability Index is a composite score based on measures related to aspects of liveability including Social Infrastructure, Walkability, Public Transport, Public Open Space, Housing Affordability, and Local Employment.
    - We would like to choose 5 metrics:
-     - Social Infrastructure: Number of Social Infrastructure in this postcode
-     - Walkability: The duration between property and Social Infrastructure
+     - Social Infrastructure: Number of Social Infrastructure(public services, emergency services, hospital) in this postcode
+     - (pending) Walkability: The duration between property and Social Infrastructure
      - Public Transport: The duration between property and train station
      - Housing Affordability: Rent proportion of income of each person
      - Local Employment: Median income of each postcode
-   - These five metrics are graded according to ranking, with a maximum of 20 points for each metric and a maximum of 100 points in total. For example, if we sort the duration, the most recent top 10% get 20 points, 10%-20% get 18 points, 20%-30% get 16 points...the last 20% get no points. Then after the score of each property comes out, follow the postcode group by to get the ranking of each suburb.
+   -  Assume equal importance. 
+   -  Method 1: These five metrics are graded according to ranking, with a maximum of 20 points for each metric and a maximum of 100 points in total. For example, if we sort the duration, the most recent top 10% get 20 points, 10%-20% get 18 points, 20%-30% get 16 points...the last 20% get no points. Then after the score of each property comes out, follow the postcode group by to get the ranking of each suburb.
+   -  Method 2: see what postcodes rank top 30 in all five metrics
+   -  Method 3: fit models. Logistic maybe.
 
 ### Affordble (ideas)
    - According to https://www.canstar.com.au/budgeting/affording-rent-payments/, it recommends that people should not spend more than 30% of gross income on rent
    - Therefore we would like to use weekly_rent/weekly_income to determine whether this subrub is affordable Since different property may have different number of bedroom, we assumed that the number of bedroom is number of people live in this house and we assumed that they will split the rent bill
    - So we use the total_price_of_property/number_of_bedroom to get the cost of rent od each people in each property, then we use this to divide median weekly income of the postcode that property located to get the rent_proportion
-   - After we calculate the rent_proportion:
-     - Delete the suburb which contain the unaffordable property
-     - For the suburb which do not contain the unaffordable property, we would like to group by by postcode by mean of the rent_proportion
-     - Sort the group by data, get the top ten affordable suburb which have the less rent_proportion
 
 ![Drag Racing](../plots/meeting_minutes/summary-affordable.jpeg)
 
