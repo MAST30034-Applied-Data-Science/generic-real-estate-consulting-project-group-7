@@ -6,11 +6,15 @@
   - [Project Specification:](#project-specification)
   - [Group Information](#group-information)
   - [Dependencies](#dependencies)
-  - [**Code Running Instructions**](#code-running-instructions)
+  - [Directories](#directories)
 
 ## Project Specification:
 
-This project aims to ...
+Due to the impact of covid, uncertain factors such as insufficient human resources and decreased purchasing power accelerate the instability in the property market.This project utilizes modern data science analysis tools, and aims to help the real-estate industry in making investment and client-based marketing to achieve higher profit.
+
+**Our main goal is to determine the approximate level of rent and which properties are most likely to increase in the next 3 years.**
+
+This whole project took 7 weeks, about 150 hours to complete including the final wrap up session.
 
 ## Group Information
 **Group name:** Group 7
@@ -19,9 +23,9 @@ This project aims to ...
 | ---- | ---- | ---- |
 | QUZIHAN WU | 1078419 | quzihanw@student.unimelb.edu.au |
 | YINAN LI | 1173947 | yinan3@student.unimelb.edu.au | 
-| XINGYAO WANG | 1179108 |  |
-| ZIXUAN GUO | 1124606 |  |
-| ZONGCHAO XIE | 1174047 |  |
+| XINGYAO WANG | 1179108 |xingyaow@student.unimelb.edu.au  |
+| ZIXUAN GUO | 1124606 |mollyguo123123@gmail.com  |
+| ZONGCHAO XIE | 1174047 |zongchaox@student.unimelb.edu.au  |
 
 ## Dependencies
 **[MANDATORY]**
@@ -32,34 +36,25 @@ The project is conducted with `python` environment, please install required depe
 pip install -r requirements.txt
 ```
 
-## **Code Running Instructions**
-
-To recreate the result, please run jupyter notebooks with the following order:
-1. Download required data
-```
-# download domain website data
-|-- notebooks
-  |-- domain-website-download
-    |-- download.ipynb 
-
-# download all external data
-|-- notebooks
-  |--external-data-download
-    |-- download.ipynb
-```
-2. Data Preprocessing
-```
-# preprocessing and join all external data as external-features
-|-- notebooks
-  |-- preprocessing
-    |-- join
-
-# preprocessing external-features
-|-- notebooks
-  |-- preprocessing
-    |-- external-features-preprocessing
-```
-3. Merge Results
-
-4. Analyze and Modelling
-
+## Directories
+    
+- `data`: store required datasets
+    - `curated`: store processed datasets
+    - `external-raw-data`: store raw datasets which directly pushed
+    - `raw`: store raw datastes
+- `models`: modelling
+    - `Question 1.ipynb`: What are the most important internal and external features in predicting rental prices?
+    - `Question 2.ipynb`:What are the top 10 suburbs with the highest predicted growth rate?
+    - `Question 3.ipynb`: What are the most liveable and affordable suburbs according to your chosen metrics?
+- `notebooks`: store data pipeline code
+    - `domain-website-scrape`: domain website data
+    - `external-data-download`: all external dataset
+    - `preprocessing`: internal and external features preprocessing
+    - `visualization`: visualization
+- `plots`: store processed plot
+- `scripts`: store data pipeline code
+    - `domain-website-scrape`: domain website data .py file
+    - `external-data-download`: all external dataset .py file
+    - `preprocessing`: internal and external features preprocessing .py file
+- `weekly-meeting-notes`: store weekly meeting minutes
+- `Presentation`: store presentation slides

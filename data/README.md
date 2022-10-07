@@ -1,54 +1,23 @@
-# Data Releases
-- Sprint 1: Initial datasets released + students to find their own datasets.
-- Sprint 2: More datasets released + business rules.
-- Sprint 3: Final batch of datasets released.
+# Data Specification
 
-The data will either be provided by an annoucement (downloadable via URL) or uploaded directly to the `raw` directory.
+## Table of Content
+- [Data Specification](#data-specification)
+  - [Table of Content](#table-of-content)
+  - [Folder Specification](#folder-specification)
+
 
 ## Folder Specification
-1. Domain dataset
-   - save [domain website]('https://www.domain.com.au/') rent-house dataset
-        ```
-            |-- data
-                    |-- raw
-                            |-- domain-website-data
-        ```
-
-2. External dataset
-   - save pre-external dataset
-        ```
-            |-- data
-                    |-- external-raw-data
-        ```
-   - save external dataset
-        ```
-            |-- data
-                    |-- raw
-                            |-- external-data
-        ```
-
-3. preprocessing
-   - save openrouteserveice dataset
-        ```
-            |- data
-                    |- raw
-                            |- ors-data
-        ```
-   - save preprocessed domain website dataset
-        ```
-            |- data
-                    |- curated
-                            |- domain-website-data
-        ```
-   - save external feature dataset
-        ```
-            |- data
-                    |- curated
-                            |- external-data
-        ```
-   - save model dataset
-        ```
-            |- data
-                    |- curated
-                            |- model-data
-        ```
+```
+|-- data                                     # store raw and preprocessed data
+	|-- curated                          # store processed data
+                |-- domain-website-data      # store processed domain data
+                |-- external-data            # store processed external features
+                |-- model-data               # store model data
+                |-- ors-data
+	|-- external-raw-data                # store raw external datasets which cannot using url to download
+	|-- raw                              # store raw external datasets 
+                |-- domain-website-data      # store raw domain data
+                |-- external-data            # store raw external features
+                |-- model-data
+                |-- ors-data                 # store raw ors datasets
+```

@@ -15,4 +15,13 @@ This processing aims to:
   - join, save as model-data
 
 ## Code Running Instructions
-`preprocessing.ipynb`
+- preprocessing part -> `preprocessing.ipynb`
+- ORS API 
+```
+ors_care_facility.ipynb   # care facility
+ors_distance_to_CBD.ipynb   # CBD
+ors_emergenc_and_hospital.ipynb   # hospital and emergency service
+ors_public.ipynb   # public service
+ors_shopping_center.ipynb   # shopping center
+ors_train_station.ipynb   # shopping center
+```
