@@ -24,7 +24,7 @@ This whole project took 7 weeks, about 150 hours to complete including the final
 | QUZIHAN WU | 1078419 | quzihanw@student.unimelb.edu.au |
 | YINAN LI | 1173947 | yinan3@student.unimelb.edu.au | 
 | XINGYAO WANG | 1179108 |xingyaow@student.unimelb.edu.au  |
-| ZIXUAN GUO | 1124606 |mollyguo123123@gmail.com  |
+| ZIXUAN GUO | 1124606 |zixguo@student.unimelb.edu.au  |
 | ZONGCHAO XIE | 1174047 |zongchaox@student.unimelb.edu.au  |
 
 ## Dependencies
