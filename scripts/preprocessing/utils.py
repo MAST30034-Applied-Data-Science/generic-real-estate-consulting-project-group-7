@@ -18,7 +18,7 @@ import geopandas as gpd
 import re
 import folium
 
-API_KEY = "AIzaSyDZQdvMsWZsyxiLiJkCr0j_e9q8qiLZoLM"
+API_KEY = "your_key" # provide your personal API key
 
 def carpark_flag(s):
     """
