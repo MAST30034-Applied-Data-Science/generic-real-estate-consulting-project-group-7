@@ -7,6 +7,7 @@
   - [Group Information](#group-information)
   - [Dependencies](#dependencies)
   - [Directories](#directories)
+  - [Clone](#clone)
 
 ## Project Specification:
 
@@ -58,3 +59,7 @@ pip install -r requirements.txt
     - `preprocessing`: internal and external features preprocessing .py file
 - `weekly-meeting-notes`: store weekly meeting minutes
 - `Presentation`: store presentation slides
+
+
+## Clone
+if fail to use `git clone`, try `git lfs clone`
