@@ -8,6 +8,7 @@
   - [Dependencies](#dependencies)
   - [Directories](#directories)
   - [Clone](#clone)
+  - [References](#references)
 
 ## Project Specification:
 
@@ -46,6 +47,7 @@ pip install -r requirements.txt
 - `models`: modelling
     - `Question 1.ipynb`: What are the most important internal and external features in predicting rental prices?
     - `Question 2.ipynb`:What are the top 10 suburbs with the highest predicted growth rate?
+      - will print out 3 years prediction here
     - `Question 3.ipynb`: What are the most liveable and affordable suburbs according to your chosen metrics?
 - `notebooks`: store data pipeline code
     - `domain-website-scrape`: domain website data

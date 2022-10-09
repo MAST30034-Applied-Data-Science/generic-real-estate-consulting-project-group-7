@@ -16,7 +16,7 @@ Mian Problem: determine the appropriate level of rent an online real estate comp
   - The most important external features are the duration to CBD, crime rate and income
 
 - Question 2: What are the top 10 suburbs with the highest predicted growth rate?
-  - We create a simple linear regression line for each suburb’s time-series data, visualize it, and get the slope and intercept values. Therefore, we can predict the median rental price for each suburb. For visualization, we also predict the rental price in 2023 and 2024. 
+  - We create a simple linear regression line for each suburb’s time-series data, visualize it, and get the slope and intercept values. Therefore, we can predict the median rental price for each suburb. The output of 3-year prediction will in `data -> curated -> prediction_output.csv` after you run   `Question 2.ipynb`. For visualization, we also predict the rental price in 2023 and 2024. 
   - After we predict the next 3 years  median rental price by postcode, based on 2000-2022 median rental price , we can calculate the 3 year growth rate by this formula
 
 - Question 3: What are the most liveable and affordable suburbs according to your chosen metrics?
