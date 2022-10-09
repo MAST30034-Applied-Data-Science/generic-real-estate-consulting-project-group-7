@@ -62,4 +62,11 @@ pip install -r requirements.txt
 
 
 ## Clone
-if fail to use `git clone`, try `git lfs clone`
+```bash
+# install HomeBrew
+# install lfs
+  brew install git-lfs
+# run
+git lfs install
+git lfs clone #repository
+```
