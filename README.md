@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```bash
 # install HomeBrew
 # install lfs
-  brew install git-lfs
+brew install git-lfs
 # run
 git lfs install
 git lfs clone #repository
