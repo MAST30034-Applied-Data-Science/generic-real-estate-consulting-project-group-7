@@ -70,3 +70,6 @@ brew install git-lfs
 git lfs install
 git lfs clone #repository
 ```
+## References
+- NGUYEN, J. (2021). 4 Key Factors That Drive the Real Estate Market. investopedia. https://www.investopedia.com/articles/mortages-real-estate/11/factors-affecting-real-estate-market.asp
+- Gomez, J. (2022). 8 critical factors that influence a home’s value. Opendoor. https://www.opendoor.com/w/blog/factors-that-influence-home-value
