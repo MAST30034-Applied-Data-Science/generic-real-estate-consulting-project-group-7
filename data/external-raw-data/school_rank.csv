@@ -1,0 +1,655 @@
+,rank,School,Location,MedianVCE Score,VCE40+%
+0,1,Haileybury Girls College,Keysborough,37,37.2
+1,2,Bialik College,Hawthorn East,37,32.6
+2,3,Ballarat Clarendon College,Ballarat,37,32.5
+3,4,St Catherines School,Toorak,37,32.2
+4,5,Huntingtower School,Mount Waverley,37,31.6
+5,6,Macrobertson Girls High School,Melbourne,37,31.4
+6,7,Leibler Yavneh College,Elsternwick,37,29.4
+7,8,Lauriston Girls School,Armadale,36,33.7
+8,9,Mount Scopus Memorial College,Burwood,36,31.9
+9,10,Presbyterian Ladies College,Burwood,36,30.4
+10,11,Melbourne High School,South Yarra,36,30.2
+11,12,Methodist Ladies College,Kew,36,29.7
+12,13,Fintona Girls School,Balwyn,36,27.8
+13,14,Korowa Anglican Girls School,Glen Iris,36,27.2
+14,15,Ruyton Girls School,Kew,36,27.1
+15,16,Nossal High School,Berwick,36,26.9
+16,17,The King David School,Armadale,36,26.8
+17,18,Haileybury College,Keysborough,35,29.2
+18,19,Ivanhoe Girls Grammar School,Ivanhoe,35,25.5
+19,20,Victorian College for the Deaf,Melbourne,35,25
+20,21,Loreto Mandeville Hall,Toorak,35,24.7
+21,22,Melbourne Grammar School,Melbourne,35,24.5
+22,23,Camberwell Girls Grammar School,Canterbury,35,24.1
+23,24,Shelford Girls Grammar,Caulfield,35,23
+24,25,St Kevins College,Toorak,35,22
+25,26,Strathcona Baptist Girls Grammar School,Canterbury,35,20.5
+26,27,Lowther Hall Anglican Grammar School,Essendon,35,19.9
+27,28,John Monash Science School,Clayton,35,18.7
+28,29,Sacre Coeur,Glen Iris,35,18.6
+29,30,Yeshivah College,St Kilda East,35,14.3
+30,31,Alice Miller School Macedon,Macedon,35,14.2
+31,32,Trinity Grammar School,Kew,34,21.7
+32,33,Beth Rivkah Ladies College,St Kilda East,34,20.9
+33,34,Scotch College,Hawthorn,34,20.9
+34,35,Mentone Grammar School,Mentone,34,19.9
+35,36,Caulfield Grammar School Wheelers Hill,Wheelers Hill,34,19.6
+36,37,Mentone Girls Grammar School,Mentone,34,19.5
+37,38,Caulfield Grammar School Caulfield,St Kilda East,34,19.4
+38,39,Penleigh and Essendon Grammar School,Keilor East,34,19
+39,40,Yarra Valley Grammar School,Ringwood,34,18.9
+40,41,Melbourne Girls Grammar,South Yarra,34,18.4
+41,42,Genazzano F.C.J. College,Kew,34,18.2
+42,43,Firbank Grammar School,Brighton,34,18.1
+43,44,St Margarets School,Berwick,34,17.8
+44,45,Brighton Grammar School,Brighton,34,17.7
+45,46,Goulburn Valley Grammar School,Shepparton,34,17.4
+46,47,Carey Baptist Grammar School,Kew,34,17.2
+47,48,Suzanne Cory High School,Werribee,34,17.2
+48,49,Siena College,Camberwell,34,16.8
+49,50,St Leonards College,Brighton East,34,16.8
+50,51,Kilvington Grammar School,Ormond,34,14.5
+51,52,Toorak College,Mount Eliza,34,14.3
+52,53,St Michaels Grammar School,St Kilda,34,13.8
+53,54,Girton Grammar School,Bendigo,33,18.2
+54,55,Star of the Sea College,Brighton,33,17.6
+55,56,Camberwell Grammar School,Canterbury,33,17.1
+56,57,East Doncaster Secondary College,Doncaster East,33,16.7
+57,58,The Knox School,Wantirna South,33,16.1
+58,59,Melbourne Girls College,Richmond,33,16
+59,60,The Geelong College,Newtown,33,15.6
+60,61,Victorian College of the Arts Secondary School,Southbank,33,15.4
+61,62,Waverley Christian College,Wantirna South,33,14.8
+62,63,Peninsula Grammar,Mount Eliza,33,14.7
+63,64,Canterbury Girls Secondary College,Canterbury,33,13.7
+64,65,Westbourne Grammar School,Truganina,33,13.4
+65,66,Xavier College,Kew,33,13.1
+66,67,St Andrews Christian College,Wantirna South,33,12.3
+67,68,Ivanhoe Grammar School Plenty,Doreen,33,12
+68,69,Ashwood High School,Ashwood,33,10.8
+69,70,East Loddon P-12 College,Dingee,33,9.5
+70,71,Wycheproof P-12 College,Wycheproof,33,9.1
+71,72,Apollo Bay P-12 College,Apollo Bay,33,5.4
+72,73,Mernda Central P-12 College,Mernda,33,5.3
+73,74,Balwyn High School,Balwyn North,32,16.9
+74,75,Melbourne Rudolf Steiner School,Warranwood,32,13.8
+75,76,Ballarat Grammar School,Wendouree,32,13.3
+76,77,Box Hill High School,Box Hill,32,13.1
+77,78,Sacred Heart College Geelong,Newtown,32,12.8
+78,79,Mater Christi College,Belgrave,32,12.7
+79,80,St Columbas College,Essendon,32,12.7
+80,81,McKinnon Secondary College,McKinnon,32,12.6
+81,82,Glen Waverley Secondary College,Glen Waverley,32,12.5
+82,83,Kardinia International College,Bell Post Hill,32,11.9
+83,84,Kingswood College,Box Hill,32,11.5
+84,85,Braemar College,Woodend,32,11.4
+85,86,Oneschool Global Vic,Epping,32,11.2
+86,87,Mazenod College,Mulgrave,32,11
+87,88,Santa Maria College,Northcote,32,10.8
+88,89,St Aloysius College,North Melbourne,32,10.8
+89,90,Geelong Grammar School,Corio,32,10.6
+90,91,Ivanhoe Grammar School Ridgeway,Ivanhoe,32,10.3
+91,92,Williamstown High School,Williamstown,32,10
+92,93,Our Lady of Mercy College,Heidelberg,32,9.8
+93,94,Wesley College St Kilda Rd,Melbourne,32,9.6
+94,95,Luther College,Croydon Hills,32,9.5
+95,96,Cranbourne East Secondary College,Cranbourne East,32,9.4
+96,97,Donvale Christian College,Donvale,32,9.4
+97,98,Our Lady of Sion College,Box Hill,32,9.3
+98,99,Oxley Christian College,Chirnside Park,32,9.2
+99,100,Koonung Secondary College,Mont Albert North,32,9.1
+100,101,Eltham College of Education,Research,32,8.9
+101,102,Sacred Heart Girls College,Hughesdale,32,8.8
+102,103,Princes Hill Secondary College,Princes Hill,32,8.5
+103,104,Balcombe Grammar School,Mount Martha,32,8.4
+104,105,Woodleigh School,Langwarrin South,32,8.2
+105,106,Avila College,Mount Waverley,32,7.2
+106,107,Maranatha Christian School,Endeavour Hills,32,6.8
+107,108,Narre Warren South P-12 College,Narre Warren South,32,6.1
+108,109,Little Yarra Steiner School,Yarra Junction,32,5.6
+109,110,Mortlake College,Mortlake,32,5.1
+110,111,Derrinallum P-12 College,Derrinallum,32,0
+111,112,Boort District P-12 School,Boort,31,15.6
+112,113,University High School,Parkville,31,13.3
+113,114,Lighthouse Christian College Cranbourne,Cranbourne,31,12.4
+114,115,Braybrook College,Braybrook,31,12.3
+115,116,Haileybury Rendall School,"Berrimah, NT",31,12
+116,117,Loreto College,Ballarat,31,10.9
+117,118,Auburn High School,Hawthorn East,31,10.6
+118,119,De La Salle College,Malvern,31,10.3
+119,120,Northcote High School,Northcote,31,10.3
+120,121,Corryong College,Corryong,31,10
+121,122,Frankston High School,Frankston,31,10
+122,123,Kilbreda College,Mentone,31,9.9
+123,124,Vermont Secondary College,Vermont,31,9.8
+124,125,Newhaven College,Rhyll,31,9.6
+125,126,Southern Cross Grammar,Caroline Springs,31,9.6
+126,127,Dromana Secondary College,Dromana,31,9.5
+127,128,Foster Secondary College,Foster,31,9.5
+128,129,St Josephs College Ferntree Gully,Ferntree Gully,31,9.2
+129,130,Whitefriars College,Donvale,31,9.2
+130,131,Bacchus Marsh Grammar,Bacchus Marsh,31,9.1
+131,132,Nunawading Christian College,Nunawading,31,9.1
+132,133,Salesian College Chadstone,Chadstone,31,8.5
+133,134,Casey Grammar School,Cranbourne East,31,8.3
+134,135,Our Lady of Sacred Heart College,Bentleigh,31,8.3
+135,136,St Josephs College Geelong,Newtown,31,8.3
+136,137,St Pauls Anglican Grammar School,Warragul,31,8.3
+137,138,Sirius College Meadow Fair Campus,Broadmeadows,31,8
+138,139,Altona College,Altona,31,7.7
+139,140,Catholic Ladies College,Eltham,31,7.7
+140,141,Gippsland Grammar,Sale,31,7.6
+141,142,Aquinas College,Ringwood,31,7.5
+142,143,Saint Ignatius College,Drysdale,31,6.9
+143,144,Wesley College Glen Waverley,Glen Waverley,31,6.9
+144,145,Darul Ulum College of Victoria,Fawkner,31,6.8
+145,146,Mount St Joseph Girls College,Altona,31,6.5
+146,147,Kambrya College,Berwick,31,6.4
+147,148,Dimboola Memorial Secondary College,Dimboola,31,6.3
+148,149,Islamic College of Melbourne,Tarneit,31,5.9
+149,150,Sirius College Broadmeadows Campus,Broadmeadows,31,5.9
+150,151,Ave Maria College,Aberfeldie,31,5.8
+151,152,Hillcrest Christian College,Clyde North,31,5.8
+152,153,Billanook College,Mooroolbark,31,5.4
+153,154,Glen Eira College,Caulfield East,31,5.2
+154,155,Alphington Grammar School,Alphington,31,5
+155,156,Mount Hira College,Keysborough,31,5
+156,157,The Hamilton and Alexandra College,Hamilton,31,3.7
+157,158,Yesodei Hatorah College Billilla Campus,Brighton,31,3.1
+158,159,Mallacoota P-12 College,Mallacoota,31,2.6
+159,160,Cobden Technical School,Cobden,31,0
+160,161,Sherbrooke Community School,Sassafras,30,20
+161,162,Holy Trinity Lutheran College,Horsham,30,19.3
+162,163,Hopetoun P-12 College,Hopetoun,30,13.3
+163,164,Victory Lutheran College,Wodonga,30,11.3
+164,165,Covenant College,Bell Post Hill,30,9.6
+165,166,Kerang Technical High School,Kerang,30,9.3
+166,167,Brunswick Secondary College,Brunswick,30,9.2
+167,168,Albert Park College,Albert Park,30,9
+168,169,Berwick Grammar School,Officer,30,8.9
+169,170,Marcellin College,Bulleen,30,8.5
+170,171,Heritage College Officer,Officer,30,8.3
+171,172,Kew High School,Kew East,30,8.3
+172,173,Mount Waverley Secondary College,Mount Waverley,30,8.3
+173,174,St Albans Secondary College,St Albans,30,8.2
+174,175,Donald High School,Donald,30,7.7
+175,176,Emmaus College,Vermont South,30,7.7
+176,177,Camberwell High School,Canterbury,30,7.6
+177,178,Parkdale Secondary College,Mordialloc,30,7.5
+178,179,Simonds Catholic College,Fitzroy North,30,7.3
+179,180,Belgrave Heights Christian School,Belgrave Heights,30,7.2
+180,181,Strathmore Secondary College,Strathmore,30,7.2
+181,182,Tintern Grammar,Ringwood East,30,7.2
+182,183,Mentone Girls Secondary College,Mentone,30,7.1
+183,184,Ringwood Secondary College,Ringwood,30,7
+184,185,Lighthouse Christian College,Keysborough,30,6.6
+185,186,Templestowe College,Templestowe Lower,30,6.6
+186,187,Academy of Mary Immaculate,Fitzroy,30,6.5
+187,188,Mount Eliza Secondary College,Mount Eliza,30,6.5
+188,189,Northside Christian College,Bundoora,30,6.5
+189,190,Parade College,Bundoora,30,6.5
+190,191,St Bedes College,Mentone,30,6.4
+191,192,Highvale Secondary College,Glen Waverley,30,6.3
+192,193,Swifts Creek P-12 School,Swifts Creek,30,6.3
+193,194,Geelong Lutheran College,Armstrong Creek,30,6.2
+194,195,Bayside Christian College,Langwarrin South,30,6
+195,196,Killester College,Springvale,30,6
+196,197,Christian College Geelong Waurun Ponds,Waurn Ponds,30,5.9
+197,198,Sandringham College,Sandringham,30,5.9
+198,199,Beaconhills College Pakenham,Pakenham,30,5.7
+199,200,Nazareth College,Noble Park North,30,5.6
+200,201,Cheltenham Secondary College,Cheltenham,30,5.5
+201,202,Hume Anglican Grammar,Mickleham,30,5.3
+202,203,St Bernards College,Essendon,30,5.3
+203,204,Loyola College,Watsonia,30,5.1
+204,205,Bayside College Paisley Campus,Newport,30,5
+205,206,Al Siraat College,Epping,30,4.6
+206,207,Cathedral College,Wangaratta,30,4.4
+207,208,Holmes Grammar School,Melbourne,30,4.4
+208,209,MacKillop Catholic Regional College,Werribee,30,4.3
+209,210,Horsham College,Horsham,30,4.1
+210,211,Marymede Catholic College,South Morang,30,4.1
+211,212,Overnewton Anglican College,Keilor,30,4.1
+212,213,Mount Lilydale Mercy College,Lilydale,30,4
+213,214,Viewbank College,Viewbank,30,3.9
+214,215,Sacred Heart College Kyneton,Kyneton,30,3.7
+215,216,Cornish College,Bangholme,30,3.2
+216,217,Tyrrell College,Sea Lake,30,3.1
+217,218,Oberon High School,Armstrong Creek,30,3
+218,219,Kings College,Warrnambool,30,2.9
+219,220,F.C.J. College,Benalla,30,2.7
+220,221,Sunbury Downs Secondary College,Sunbury,30,2.7
+221,222,Birchip P-12 School,Birchip,30,2.4
+222,223,Bannockburn P-12 College,Bannockburn,30,0
+223,224,TAFE Gippsland,Morwell,30,0
+224,225,Kaniva P-12 College,Kaniva,29,12.9
+225,226,Casterton Secondary College,Casterton,29,10.5
+226,227,Beechworth Secondary College,Beechworth,29,9.1
+227,228,Mullauna College,Mitcham,29,7.9
+228,229,Brighton Secondary College,Brighton East,29,7.6
+229,230,Mansfield Secondary College,Mansfield,29,7.1
+230,231,Daylesford Secondary College,Daylesford,29,6.7
+231,232,Elwood College,Elwood,29,6.7
+232,233,Berwick Secondary College,Berwick,29,6.4
+233,234,Buckley Park College,Essendon,29,6.3
+234,235,Thornbury High School,Thornbury,29,6.3
+235,236,Coburg Senior High School,Coburg,29,6.1
+236,237,Padua College,Mornington,29,6.1
+237,238,Clonard College,Herne Hill,29,5.9
+238,239,Beaconhills College Berwick,Berwick,29,5.8
+239,240,Brentwood Secondary College,Glen Waverley,29,5.7
+240,241,Rosehill Secondary College,Niddrie,29,5.4
+241,242,Doncaster Secondary College,Doncaster,29,5.3
+242,243,Mercy College,Coburg,29,5.2
+243,244,Blackburn High School,Blackburn,29,5.1
+244,245,Flinders Christian Community College Tyabb,Tyabb,29,5
+245,246,Gilson College Taylors Hill,Taylors Hill,29,5
+246,247,Maribyrnong Secondary College,Maribyrnong,29,4.9
+247,248,Marist Sion College,Warragul,29,4.9
+248,249,Mary MacKillop Catholic College,Leongatha,29,4.9
+249,250,Werribee Secondary College,Werribee,29,4.9
+250,251,Emerald Secondary College,Emerald,29,4.8
+251,252,Emmanuel College Warrnambool,Warrnambool,29,4.7
+252,253,Footscray High School,Footscray,29,4.6
+253,254,Heatherton Christian College,Clarinda,29,4.6
+254,255,Chairo Christian School Drouin,Drouin,29,4.5
+255,256,Flinders Christian Community College Carrum Downs,Carrum Downs,29,4.5
+256,257,Sacred Heart College Yarrawonga,Yarrawonga,29,4.5
+257,258,St Monicas College,Epping,29,4.5
+258,259,Oakleigh Grammar,Oakleigh,29,4.4
+259,260,Montmorency Secondary College,Montmorency,29,4.3
+260,261,St Francis Xavier College,Beaconsfield,29,4.3
+261,262,Heathdale Christian College,Werribee,29,4
+262,263,John Paul College,Frankston,29,4
+263,264,Sirius College Dandenong Campus,Keysborough,29,4
+264,265,Fitzroy High School,Fitzroy North,29,3.7
+265,266,Eltham High School,Eltham,29,3.6
+266,267,McClelland Secondary College,Frankston,29,3.6
+267,268,St Marys College Melbourne,St Kilda East,29,3.6
+268,269,Alkira Secondary College,Cranbourne North,29,3.5
+269,270,St Helena Secondary College,Eltham North,29,3.5
+270,271,Marian College Sunshine West,Sunshine West,29,3.4
+271,272,Homestead Senior Secondary College,Point Cook,29,3.3
+272,273,Gilson College Mernda Campus,Mernda,29,2.9
+273,274,Woodmans Hill Secondary College,Ballarat East,29,2.8
+274,275,Drouin Secondary College,Drouin,29,1.8
+275,276,Trinity College,Colac,29,1.8
+276,277,Plenty Valley Christian College,Doreen,29,1.7
+277,278,Kyabram Secondary College,Kyabram,29,0
+278,279,Mount Rowan Secondary College,Wendouree,29,0
+279,280,Red Rock Christian College,Sunbury,29,0
+280,281,Shepparton Christian College,Shepparton,29,0
+281,282,St Johns Greek Orthodox College,Preston,29,0
+282,283,Wedderburn College,Wedderburn,29,0
+283,284,Kurnai College Churchill Campus,Churchill,28,8.7
+284,285,Wangaratta High School,Wangaratta,28,7
+285,286,Mordialloc College,Mordialloc,28,6.7
+286,287,Charlton College,Charlton,28,6.5
+287,288,Maffra Secondary College,Maffra,28,6.5
+288,289,Matthew Flinders Girls Secondary College,Geelong,28,6.3
+289,290,Catherine McAuley College,Bendigo,28,6.2
+290,291,Highview Christian Community College,Maryborough,28,5.9
+291,292,Catholic College Sale,Sale,28,5.7
+292,293,St Marys Coptic Orthodox College,Coolaroo,28,5.5
+293,294,St Patricks College,Ballarat,28,5.5
+294,295,Antonine College Senior Campus,Pascoe Vale South,28,5.2
+295,296,Mooroolbark College,Mooroolbark,28,5.1
+296,297,Rosebud Secondary College,Rosebud,28,5.1
+297,298,Victoria University Secondary College Brimbank Campus,St Albans,28,4.9
+298,299,Victory Christian College,Strathdale,28,4.9
+299,300,Gisborne Secondary College,Gisborne,28,4.8
+300,301,Lavalla Catholic College,Traralgon,28,4.8
+301,302,Wellington Secondary College,Mulgrave,28,4.8
+302,303,Bright P-12 College,Bright,28,4.7
+303,304,Mount Evelyn Christian School,Mount Evelyn,28,4.7
+304,305,Virtual School Victoria,Thornbury,28,4.7
+305,306,Gladstone Park Secondary College,Gladstone Park,28,4.4
+306,307,Norwood Secondary College,Ringwood,28,4.4
+307,308,Belmont High School,Belmont,28,4.3
+308,309,Caroline Chisholm Catholic College,Braybrook,28,4.3
+309,310,St Mary MacKillop College,Swan Hill,28,4.2
+310,311,Assumption College,Kilmore,28,4
+311,312,Lyndhurst Secondary College,Cranbourne,28,4
+312,313,Good News Lutheran College,Tarneit,28,3.9
+313,314,Keilor Downs College,Keilor Downs,28,3.9
+314,315,Reservoir High School,Reservoir,28,3.9
+315,316,Timboon P-12 School,Timboon,28,3.8
+316,317,Catholic College Wodonga,Wodonga,28,3.7
+317,318,Emmanuel College Melbourne,Altona North,28,3.6
+318,319,Minaret College Springvale,Springvale,28,3.6
+319,320,Chairo Christian School Pakenham,Nar Nar Goon,28,3.5
+320,321,Ilim College of Australia,Broadmeadows,28,3.5
+321,322,Monivae College,Hamilton,28,3.5
+322,323,Hoppers Crossing Secondary College,Hoppers Crossing,28,3.3
+323,324,Springside West Secondary College,Fraser Rise,28,3.3
+324,325,Warracknabeal Secondary College,Warracknabeal,28,3.3
+325,326,Murtoa P-12 College,Murtoa,28,3.2
+326,327,Wantirna College,Wantirna,28,3.2
+327,328,Lalor Secondary College,Lalor,28,3.1
+328,329,Salesian College Sunbury,Sunbury,28,3.1
+329,330,St Josephs College Echuca,Echuca,28,3.1
+330,331,Catholic Regional College Melton,Melton West,28,3
+331,332,Copperfield College,Delahey,28,3
+332,333,Damascus College,Mount Clear,28,3
+333,334,Lyndale Secondary College,Dandenong North,28,2.9
+334,335,Mornington Secondary College,Mornington,28,2.9
+335,336,Gleneagles Secondary College,Endeavour Hills,28,2.8
+336,337,Swinburne Senior Secondary College,Hawthorn,28,2.8
+337,338,Aitken College,Greenvale,28,2.7
+338,339,Mount Alexander 7-12 College,Flemington,28,2.7
+339,340,Hawkesdale College,Hawkesdale,28,2.6
+340,341,Nagle College,Bairnsdale,28,2.6
+341,342,Catholic Regional College Sydenham,Sydenham,28,2.5
+342,343,Galen College,Wangaratta,28,2.5
+343,344,Mirboo North Secondary College,Mirboo North,28,2.3
+344,345,Trafalgar High School,Trafalgar,28,2.3
+345,346,Bentleigh Secondary College,Bentleigh East,28,2.1
+346,347,Northern College of Arts and Technology,Preston,28,2.1
+347,348,Beaufort Secondary College,Beaufort,28,2
+348,349,Keysborough Secondary College Acacia,Keysborough,28,2
+349,350,Noble Park Secondary College,Noble Park,28,2
+350,351,Ballarat High School,Ballarat,28,1.8
+351,352,Epping Secondary College,Epping,28,1.8
+352,353,South Oakleigh Secondary College,Oakleigh South,28,1.8
+353,354,St Josephs College Mildura,Mildura,28,1.8
+354,355,Rochester Secondary College,Rochester,28,1.4
+355,356,Bundoora Secondary College,Bundoora,28,1.3
+356,357,Wheelers Hill Secondary College,Wheelers Hill,28,1.2
+357,358,Forest Hill College,Burwood East,28,0.8
+358,359,Bayview College,Portland,28,0
+359,360,Cobram Secondary College,Cobram,28,0
+360,361,Edenhope College,Edenhope,28,0
+361,362,Edinburgh College,Lilydale,28,0
+362,363,Marian College Myrtleford,Myrtleford,28,0
+363,364,Monterey Secondary College,Frankston North,28,0
+364,365,Murrayville Community College,Murrayville,28,0
+365,366,Myrtleford P-12 College,Myrtleford,28,0
+366,367,St Arnaud Secondary College,St Arnaud,28,0
+367,368,St Brigids College,Horsham,28,0
+368,369,St Thomas Aquinas College,Tynong,28,0
+369,370,Mountain District Christian School,Monbulk,27,7.7
+370,371,Cobram Anglican Grammar School,Cobram,27,6.3
+371,372,Healesville High School,Healesville,27,5.2
+372,373,Ouyen Secondary College,Ouyen,27,4.4
+373,374,Ilim College Kiewa Campus Dallas,Dallas,27,4.3
+374,375,Lorne P-12 College,Lorne,27,4.3
+375,376,Kerang Christian College,Kerang,27,4.2
+376,377,Monbulk College,Monbulk,27,4
+377,378,Phoenix P-12 Community College,Sebastopol,27,4
+378,379,Collingwood College,Collingwood,27,3.8
+379,380,North Geelong Secondary College,Geelong North,27,3.8
+380,381,Westall Secondary College,Clayton South,27,3.8
+381,382,Newcomb Secondary College,Newcomb,27,3.6
+382,383,Essendon Keilor College Essendon Campus,Essendon,27,3.3
+383,384,Hume Central Secondary College Town Park,Broadmeadows,27,3.3
+384,385,Lakeview Senior College,Caroline Springs,27,3.1
+385,386,Carwatha College P-12,Noble Park,27,3
+386,387,Diamond Valley College,Diamond Creek,27,2.8
+387,388,Hampton Park Secondary College,Hampton Park,27,2.8
+388,389,Seymour College,Seymour,27,2.8
+389,390,William Ruthven Secondary College,Reservoir,27,2.7
+390,391,Marian College Ararat,Ararat,27,2.6
+391,392,Nhill College,Nhill,27,2.6
+392,393,Robinvale College,Robinvale,27,2.6
+393,394,Brauer College,Warrnambool,27,2.5
+394,395,Lilydale High School,Lilydale,27,2.4
+395,396,Surf Coast Secondary College,Torquay,27,2.4
+396,397,Point Cook Senior Secondary College,Point Cook,27,2.3
+397,398,Wonthaggi Secondary College,Wonthaggi,27,2.3
+398,399,Hazel Glen College,Doreen,27,2.2
+399,400,St Mary of the Angels College,Nathalia,27,2.2
+400,401,Sunshine College,Sunshine West,27,2.1
+401,402,Thomas Carr College,Tarneit,27,2.1
+402,403,Bellarine Secondary College,Drysdale,27,2
+403,404,Gordon Institute of TAFE,Geelong,27,2
+404,405,Marist College Bendigo,Maiden Gully,27,2
+405,406,Melba Secondary College,Croydon,27,2
+406,407,Traralgon College,Traralgon,27,1.8
+407,408,Mercy Regional College,Camperdown,27,1.4
+408,409,Scoresby Secondary College,Scoresby,27,1.4
+409,410,Warrnambool College,Warrnambool,27,1.4
+410,411,Leongatha Secondary College,Leongatha,27,1.3
+411,412,Numurkah Secondary College,Numurkah,27,1.3
+412,413,Upwey High School,Upwey,27,1.3
+413,414,Melton Secondary College,Melton,27,1
+414,415,Pascoe Vale Girls Secondary College,Pascoe Vale,27,1
+415,416,Keysborough Secondary College Banksia,Springvale South,27,0.9
+416,417,Yarrawonga College P-12,Yarrawonga,27,0.9
+417,418,Lakeside Lutheran College,Pakenham,27,0.8
+418,419,Mount Erin College,Frankston South,27,0.7
+419,420,Mount Clear College,Mount Clear,27,0.3
+420,421,Camperdown College,Camperdown,27,0
+421,422,Good Shepherd College,Hamilton,27,0
+422,423,Orbost Secondary College,Orbost,27,0
+423,424,Rainbow P-12 College,Rainbow,27,0
+424,425,Somerville Secondary College,Somerville,27,0
+425,426,Sydney Road Community School,Brunswick,27,0
+426,427,Lakes Entrance Secondary College,Lakes Entrance,26,5.2
+427,428,Al Iman College,Melton South,26,3.9
+428,429,Terang College Secondary Campus,Terang,26,3.7
+429,430,Taylors Lakes Secondary College,Taylors Lakes,26,3.6
+430,431,Notre Dame College,Shepparton,26,3.2
+431,432,Sunbury College,Sunbury,26,3.2
+432,433,Rowville Secondary College,Rowville,26,3.1
+433,434,St Johns Regional College,Dandenong,26,3
+434,435,St Augustines College,Kyabram,26,2.9
+435,436,Thomastown Secondary College,Thomastown,26,2.9
+436,437,Bairnsdale Secondary College,Bairnsdale,26,2.8
+437,438,Australian International Academy Caroline Springs,Caroline Springs,26,2.6
+438,439,Kurunjang Secondary College,Melton,26,2.6
+439,440,Minaret College Officer,Officer,26,2.3
+440,441,Penola Catholic College,Broadmeadows,26,2.3
+441,442,Elisabeth Murdoch College,Langwarrin,26,2
+442,443,Bendigo Senior Secondary College,Bendigo,26,1.9
+443,444,Cohuna Secondary College,Cohuna,26,1.9
+444,445,RMIT TAFE,Melbourne,26,1.9
+445,446,Mildura Senior College,Mildura,26,1.7
+446,447,Geelong High School,East Geelong,26,1.5
+447,448,Koo Wee Rup Secondary College,Koo Wee Rup,26,1.5
+448,449,Kyneton High School,Kyneton,26,1.5
+449,450,Kolbe Catholic College,Greenvale Lakes,26,1.4
+450,451,Melton Christian College,Melton South,26,1.4
+451,452,Swan Hill College,Swan Hill,26,1.4
+452,453,Dandenong High School Dandenong,Dandenong,26,1.3
+453,454,Staughton College,Melton South,26,1.3
+454,455,Mount Beauty Secondary College,Mount Beauty,26,1.2
+455,456,Patterson River Secondary College,Seaford,26,1.2
+456,457,Echuca College,Echuca,26,1.1
+457,458,Heathmont College,Heathmont,26,1.1
+458,459,Greensborough Secondary College,Greensborough,26,1
+459,460,Alexandra Secondary College,Alexandra,26,0.8
+460,461,Korumburra Secondary College,Korumburra,26,0.8
+461,462,Officer Secondary College,Officer,26,0.8
+462,463,Al-Taqwa College Islamic Schools of Vic,Truganina,26,0.7
+463,464,Castlemaine Secondary College,Castlemaine,26,0.7
+464,465,Yarram Secondary College,Yarram,26,0.7
+465,466,Yea High School,Yea,26,0.7
+466,467,Maryborough Education Centre,Maryborough,26,0.6
+467,468,Pakenham Secondary College,Pakenham,26,0.6
+468,469,Macleod College,Macleod,26,0.4
+469,470,Bayswater Secondary College,Bayswater,26,0
+470,471,Cann River P-12 College,Cann River,26,0
+471,472,Heywood and District Secondary College,Heywood,26,0
+472,473,Sale College,Sale,26,0
+473,474,Tallangatta Secondary College,Tallangatta,26,0
+474,475,Roxburgh College,Roxburgh Park,25,3
+475,476,Ararat College,Ararat,25,2.7
+476,477,Bacchus Marsh College,Bacchus Marsh,25,2.4
+477,478,Warrandyte High School,Warrandyte,25,2.2
+478,479,Benalla P-12 College,Benalla,25,2
+479,480,Box Hill Institute CAE Campus Melbourne,Melbourne,25,2
+480,481,Mount Ridley P-12 College,Craigieburn,25,2
+481,482,Lowanna College,Newborough,25,1.6
+482,483,Broadford Secondary College,Broadford,25,1.3
+483,484,St Peters College,Cranbourne,25,1.3
+484,485,Swinburne University of Technology TAFE Croydon,Croydon,25,1.3
+485,486,Fairhills High School,Knoxfield,25,1
+486,487,Cranbourne Secondary College,Cranbourne,25,0.7
+487,488,Yarra Hills Secondary College,Mooroolbark,25,0.6
+488,489,Lalor North Secondary College,Epping,25,0.5
+489,490,Whittlesea Secondary College,Whittlesea,25,0.5
+490,491,Fountain Gate Secondary College,Narre Warren,25,0.3
+491,492,Portland Secondary College,Portland,25,0.3
+492,493,Wyndham Central Secondary College,Werribee,25,0.3
+493,494,Nathalia Secondary College,Nathalia,25,0
+494,495,Neerim District Secondary College,Neerim South,25,0
+495,496,Red Cliffs Secondary College,Red Cliffs,25,0
+496,497,Rushworth P-12 College,Rushworth,25,0
+497,498,Upper Yarra Secondary College,Yarra Junction,25,0
+498,499,Warragul Regional College,Warragul,25,0
+499,500,Geelong Baptist College,Lovely Banks,24,3
+500,501,Lara Secondary College,Lara,24,2.4
+501,502,Baimbridge College,Hamilton,24,2.1
+502,503,Stawell Secondary College,Stawell,24,1.9
+503,504,Wodonga Senior Secondary College,Wodonga,24,1.9
+504,505,Box Hill Senior Secondary College,Mont Albert North,24,1.7
+505,506,Mill Park Secondary College,Epping,24,1.6
+506,507,Western Heights College,Hamlyn Heights,24,1.4
+507,508,Rutherglen High School,Rutherglen,24,0.9
+508,509,Grovedale College,Grovedale,24,0.8
+509,510,Boronia K-12 College,Boronia,24,0.7
+510,511,Western Port Secondary College,Hastings,24,0.7
+511,512,Australian International Academy Coburg,North Coburg,24,0.6
+512,513,Tarneit Senior College,Tarneit,24,0.6
+513,514,Greater Shepparton Secondary College Wanganui Campus,Shepparton,24,0.4
+514,515,Alia College,Hawthorn East,24,0
+515,516,Colac Secondary College,Colac,24,0
+516,517,Euroa Secondary College,Euroa,24,0
+517,518,Greater Shepparton Secondary College McGuire Campus,Shepparton,24,0
+518,519,Lake Bolac College,Lake Bolac,24,0
+519,520,Wallan Secondary College,Wallan,24,0
+520,521,Northern Bay P-12 College,Corio,23,1.9
+521,522,Hallam Senior Secondary College,Hallam,23,1.6
+522,523,Charles La Trobe P-12 College La Trobe,Macleod West,23,1.3
+523,524,Lilydale Heights College,Lilydale,23,0.5
+524,525,Manor Lakes P-12 College,Wyndham Vale,23,0.2
+525,526,Carrum Downs Secondary College,Carrum Downs,23,0
+526,527,Chisholm Institute of TAFE Dandenong,Dandenong,23,0
+527,528,Chisholm Institute of TAFE Frankston,Frankston,23,0
+528,529,Glenroy Secondary College,Glenroy,23,0
+529,530,The Grange P-12 College,Hoppers Crossing,22,1.6
+530,531,Craigieburn Secondary College,Craigieburn,22,1.4
+531,532,Ballarat Christian College,Sebastopol,22,0
+532,533,Laverton P-12 College,Laverton,22,0
+533,534,East Preston Islamic College,Preston East,21,2.2
+534,535,Stotts Colleges Melbourne,Melbourne,21,0
+535,536,John Fawkner College,Fawkner,20,0
+536,537,Victoria University Polytechnic,Footscray,20,0
+537,538,Ozford College,Melbourne,19,1.5
+538,539,Adass Israel School Elsternwick,Elsternwick,0,0
+539,540,Adass Israel School St Kilda East,St Kilda East,0,0
+540,541,Advance College of Education,Rosebud,0,0
+541,542,Albury Wodonga Community College,Wodonga,0,0
+542,543,Armstrong Creek School,Armstrong Creek,0,0
+543,544,Balmoral Community College,Balmoral,0,0
+544,545,Bendigo South East Secondary College,Bendigo,0,0
+545,546,Bendigo TAFE,Bendigo,0,0
+546,547,Berry Street Victoria,Richmond,0,0
+547,548,Box Hill Institute,Box Hill,0,0
+548,549,Catholic Regional College Caroline Springs,Caroline Springs,0,0
+549,550,Charles La Trobe P-12 College The Pavilion,Preston,0,0
+550,551,Cire Community School,Yarra Junction,0,0
+551,552,Croydon Community School,Croydon,0,0
+552,553,Crusoe 7-10 Secondary College,Kangaroo Flat,0,0
+553,554,David Scott School Frankston,Frankston,0,0
+554,555,Diamond Valley Learning Centre,Greensborough,0,0
+555,556,Djerriwarrh Community College,Melton,0,0
+556,557,Education Centre Gippsland,Warragul,0,0
+557,558,Federation University Australia SMB Campus,Ballarat,0,0
+558,559,Foundation Learning Centre,Narre Warren,0,0
+559,560,Glenroy Neighbourhood Centre,Glenroy,0,0
+560,561,Goroke P-12 College,Goroke,0,0
+561,562,Goulburn Ovens Institute of TAFE,Shepparton,0,0
+562,563,Hester Hornbrook Academy,Melbourne,0,0
+563,564,Holmesglen Institute of TAFE Moorabbin,Moorabbin,0,0
+564,565,Kangan Institute of TAFE,Broadmeadows,0,0
+565,566,Kensington Community High School,Kensington,0,0
+566,567,Lavers Hill K-12 College,Lavers Hill,0,0
+567,568,Lynall Hall Community School,Richmond,0,0
+568,569,Manangatang P-12 College,Manangatang,0,0
+569,570,Melbourne Montessori School Senior Campus,Brighton East,0,0
+570,571,Melbourne Polytechnic,Preston,0,0
+571,572,Merinda Park Learning Centre,Cranbourne North,0,0
+572,573,Mountain District Learning Centre,Ferntree Gully,0,0
+573,574,Oakwood School,Caulfield North,0,0
+574,575,Parkville College,Parkville,0,0
+575,576,Peter Lalor Secondary College,Lalor,0,0
+576,577,Pines Learning,Doncaster East,0,0
+577,578,Prahran Community Learning Centre,Prahran,0,0
+578,579,Preston Reservoir Adult Community Education,Reservoir,0,0
+579,580,River Nile School,North Melbourne,0,0
+580,581,SEDA College,Hawthorn East,0,0
+581,582,Shepparton Adult and Community Education,Shepparton,0,0
+582,583,South West Institute of TAFE,Warrnambool,0,0
+583,584,Sunraysia Institute of TAFE,Mildura,0,0
+584,585,The Lakes South Morang College,South Morang,0,0
+585,586,William Angliss Institute of TAFE,Melbourne,0,0
+586,587,Wodonga Institute of TAFE,West Wodonga,0,0
+587,588,Wyndham Community and Education Centre,Werribee,0,0
+588,589,Youth2industry College,South Melbourne,0,0
+589,590,Yuille Park Community College,Delacombe,0,0
+590,591,Armenian Aginian School Surrey Hills,Surrey Hills, , 
+591,592,Austurk Saturday Turkish School,Gladstone Park, , 
+592,593,Bharathi Academy Dandenong,Dandenong, , 
+593,594,Cheryl Kaloger Brown School of Dance,Hawthorn East, , 
+594,595,Chinese Culture School,Mont Albert, , 
+595,596,Chinese Culture School Melbourne High Campus,South Yarra, , 
+596,597,Chinese Culture School Northcote Campus,Northcote, , 
+597,598,Eastern Chinese Language School,Doncaster East, , 
+598,599,Firbank Grammar Qidong Qidi Foreign Language School,"Qidong, China", , 
+599,600,Firbank Grammar School Chongqing New Epoch School,"Sichuan, China", , 
+600,601,Firbank Grammar School Harbin American-Canadian Foreign Language School,"Heilongjiang, China", , 
+601,602,Firbank Grammar School Jiangyan No 2 High School,"Taizhou, China", , 
+602,603,Firbank Grammar School Lianyungang Foreign Language School,"Lianyungang, China", , 
+603,604,Firbank Grammar School Shanghai Tianhua College High School,"Shanghai, China", , 
+604,605,Firbank Grammar School Suzhou International Foreign Language School,"Suzhou, China", , 
+605,606,Greek Orthodox Community of Melbourne and Victoria,Melbourne, , 
+606,607,Haileybury Albert Einstein School,"Ho Chi Minh City, Vietnam", , 
+607,608,Haileybury College Tianjin Campus,"Tianjin, China", , 
+608,609,Haileybury Dili International School,"Dili, Timor-Leste", , 
+609,610,Haileybury Ningbo Li Hui Li High School,"Ningbo, China", , 
+610,611,Haileybury Wuhan Foreign Language School,"Wuhan, China", , 
+611,612,Hispanoamerican School of Springvale,Noble Park, , 
+612,613,Independent Dance Studios,Hallam, , 
+613,614,Iranian Cultural School,Doncaster East, , 
+614,615,Korean Language School of Melbourne,Prahran, , 
+615,616,Kurnai College University Campus,Churchill, , 
+616,617,Meisha Academy Guangzhou,"Guangzhou, China", , 
+617,618,Melbourne International School of Japanese,Oakleigh South, , 
+618,619,Melbourne Swedish Community School Association,Toorak, , 
+619,620,Mount Martha School of Dance,Mount Martha, , 
+620,621,Nestoras College Doncaster,Doncaster, , 
+621,622,New Chinese Language and Culture School Thornbury,Thornbury, , 
+622,623,Omiros College Pascoe Vale South,Pascoe Vale South, , 
+623,624,Peninsula Grammar Heze No 1 Middle School,"Shandong, China", , 
+624,625,Peninsula Grammar Nanjing Experimental School,"Nanjing, China", , 
+625,626,Peninsula Grammar Pudong Foreign Language School,"Shanghai, China", , 
+626,627,Peninsula Grammar Taixing No 1 Senior High School,"Taixing, China", , 
+627,628,Peninsula Grammar Zhengzhou Foreign Language School,"Zhengzhou, China", , 
+628,629,Peninsula International School Australia Malaysia Campus,"Selangor, Malaysia", , 
+629,630,Pythagoras Greek School,Brighton, , 
+630,631,Serbian Ethnic School Vuk Karadzic,St Albans, , 
+631,632,Sholem Aleichem College,Elsternwick, , 
+632,633,Springvale Indo-Chinese Ethnic School Inc.,Springvale South, , 
+633,634,Stonnington School of Dance,Murrumbeena, , 
+634,635,The Pushkin Lyceum Russian Community School,Elwood, , 
+635,636,Thomas Carr College Hailiang Foreign Language School,"Zhejiang, China", , 
+636,637,Thomas Carr College Wenzhou No 21 Middle School,"Wenzhou, China", , 
+637,638,Victorian Tamil Association,Glen Waverley, , 
+638,639,Victorian Virtual Learning Network,Bendigo, , 
+639,640,VSL Altona North-Footscray-Sunshine-Ballarat,Thornbury, , 
+640,641,VSL Box Hill-Blackburn-Doncaster,Thornbury, , 
+641,642,VSL Creekside-Melton,Thornbury, , 
+642,643,VSL Croydon-Shepparton-Bendigo-Warrnambool,Thornbury, , 
+643,644,VSL Dandenong-Hampton Park-Berwick,Thornbury, , 
+644,645,VSL Distance Education,Thornbury, , 
+645,646,VSL Glen Waverley-Carwatha-Mildura,Thornbury, , 
+646,647,VSL Keilor Downs-Craigieburn-Taylors Lakes,Thornbury, , 
+647,648,VSL North Geelong-Matthew Flinders-Werribee-Point Cook,Thornbury, , 
+648,649,VSL Thomastown-Lalor-Roxburgh Park-Epping,Thornbury, , 
+649,650,VSL Traralgon-Brentwood-Haileybury-Mentone,Thornbury, , 
+650,651,VSL University-Brunswick-Collingwood,Thornbury, , 
+651,652,VSL Westall-South Oakleigh-McKinnon,Thornbury, , 
+652,653,Western Chinese Language School Braybrook,Braybrook, , 
+653,654,Xin Jin Shan Chinese Language and Culture School,Mount Waverley, , 
